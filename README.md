@@ -1,6 +1,6 @@
 # 📦 SepsisCare - Final Delivery Package
 
-> **Complete download:** Get the unchanged [submission ZIP from GitHub Releases](https://github.com/ExusiaiHY/SepsisCare/releases/tag/submission-20260612). This Git repository contains browsable source and documentation; installers and generated build output are in the full ZIP. Extract the ZIP before using the installation and full-package verification instructions below. See [repository contents](REPOSITORY_CONTENTS.md) and [archive checksum](ARCHIVE_SHA256SUMS.txt).
+> **Complete download:** Get the [submission archive parts from GitHub Releases](https://github.com/ExusiaiHY/SepsisCare/releases/tag/submission-20260612). Download all 23 `.zip.001`–`.zip.023` parts, `ARCHIVE_PARTS.json`, and `restore_archive.py` into one folder, then run `python3 restore_archive.py` (Windows: `py restore_archive.py`) to restore and verify the unchanged original ZIP. This Git repository contains browsable source and documentation; installers and generated build output are in the full ZIP. Extract the restored ZIP before using the installation and full-package verification instructions below. See [download instructions](REPOSITORY_CONTENTS.md) and [archive checksum](ARCHIVE_SHA256SUMS.txt).
 
 **Course Final Submission**  
 **Date**: June 12, 2026  

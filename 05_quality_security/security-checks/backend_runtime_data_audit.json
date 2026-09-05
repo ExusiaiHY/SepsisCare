@@ -1,0 +1,2363 @@
+{
+  "ok": true,
+  "runtime_dir": "/Users/exusiaihy/SepsisCare_Final_Delivery_20260603/SepsisCare_Final_Delivery_20260603/04_client_source/apps/sepsiscare-studio/backend/runtime_data",
+  "summary": {
+    "detail_rows": 720,
+    "detail_series": 15,
+    "patients": 12015,
+    "violations": 0,
+    "warnings": 261
+  },
+  "violations": [],
+  "warnings": [
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[11]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[80]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[91]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[104]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[109]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[114]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[140]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[143]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 11.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[163]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 3.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[212]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[220]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 14.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[269]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[328]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[332]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 10.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[339]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 17.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[347]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[394]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 5.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[410]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[415]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[424]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 1.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[431]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 19.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[441]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "wbc",
+      "location": "history_patients.json[453]._detail_profile.wbc",
+      "maximum": 200.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 303.9
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[458]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 5.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[480]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "wbc",
+      "location": "history_patients.json[502]._detail_profile.wbc",
+      "maximum": 200.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 398.3
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[506]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[511]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[519]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[531]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[538]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 18.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[547]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[549]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[597]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "wbc",
+      "location": "history_patients.json[634]._detail_profile.wbc",
+      "maximum": 200.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 284.4
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[657]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[729]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 17.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[734]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 3.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[748]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[757]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[812]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[822]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[824]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[830]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[836]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[852]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 16.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[893]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 2.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[902]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[905]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[929]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[962]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 3.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[983]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[993]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1005]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1020]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1021]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[1094]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 17.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1114]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1115]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[1178]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 6.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1185]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[1216]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 4.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1237]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1251]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1287]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[1293]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 19.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1297]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1298]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[1301]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 8.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1332]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[1350]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 8.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1369]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1430]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[1483]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 8.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1514]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1525]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1544]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[1628]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 10.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1653]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[1703]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 19.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1710]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1740]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[1766]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 18.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1778]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[1798]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 12.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[1818]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 5.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1836]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1866]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1878]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1886]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1887]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1899]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[1976]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[2024]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[2086]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 15.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[2088]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[2093]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[2114]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[2127]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 5.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[2179]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[2223]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[2241]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[2259]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[2320]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[2339]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[2351]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[2354]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[2390]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 1.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[2403]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 7.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[2413]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[2424]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[2449]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[2485]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 12.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[2577]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 12.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[2619]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 1.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[2623]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[2673]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[2684]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[2709]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 3.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[2717]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[2750]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 17.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[2782]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[2837]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[2843]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[2862]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 10.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[2867]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[2890]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[2901]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 13.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[2931]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[2946]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 6.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[2951]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[2989]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[3047]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 8.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[3066]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 9.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[3068]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[3121]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 15.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[3171]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[3187]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 6.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[3275]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "creatinine",
+      "location": "history_patients.json[3306]._detail_profile.creatinine",
+      "maximum": 20.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 21.9
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[3314]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 17.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[3334]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[3369]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[3377]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[3381]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[3391]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[3442]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[3467]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 2.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[3488]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[3577]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[3588]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[3600]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[3664]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[3683]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 9.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[3705]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 17.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[3796]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[3797]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[3812]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 6.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[3857]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 14.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[3882]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[3903]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[3905]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[3947]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[3961]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[3983]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[3991]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 2.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[4028]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 12.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[4034]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 16.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4037]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[4064]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 2.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[4080]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 1.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "wbc",
+      "location": "history_patients.json[4082]._detail_profile.wbc",
+      "maximum": 200.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 379.2
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4138]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "wbc",
+      "location": "history_patients.json[4151]._detail_profile.wbc",
+      "maximum": 200.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 209.6
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4175]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4261]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[4262]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 1.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "creatinine",
+      "location": "history_patients.json[4274]._detail_profile.creatinine",
+      "maximum": 20.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 22.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4294]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[4296]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 15.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[4324]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 10.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4395]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4401]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4429]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[4444]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 8.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[4469]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 19.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4495]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4535]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4539]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[4544]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 10.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[4550]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 16.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4554]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4580]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[4591]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 17.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4592]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4612]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4613]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4619]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4644]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[4646]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 5.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4676]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4686]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4718]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4743]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4750]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4762]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4772]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[4790]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 5.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[4846]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 16.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[4864]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 1.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[4907]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 6.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4917]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4928]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4929]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[4963]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 19.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4963]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4964]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[4967]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 8.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[4990]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 8.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[4993]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[5051]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 1.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[5074]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 1.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[5116]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[5126]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[5150]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[5200]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[5226]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[5255]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 17.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[5273]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[5362]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 11.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[5393]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[5395]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 6.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[5406]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[5409]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[5424]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 9.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[5431]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 3.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[5505]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[5538]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 9.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[5548]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 1.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[5561]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[5587]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[5588]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[5606]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[5669]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[5671]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 1.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[5735]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 10.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[5735]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[5749]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 14.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[5764]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 1.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[5767]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[5770]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[5783]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[5794]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[5835]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[5838]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "creatinine",
+      "location": "history_patients.json[5874]._detail_profile.creatinine",
+      "maximum": 20.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 22.2
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[5910]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 101.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[5921]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 18.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[5949]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 13.0
+    },
+    {
+      "category": "clinical_warning",
+      "field": "spo2",
+      "location": "history_patients.json[5955]._detail_profile.spo2",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "severity": "warning",
+      "value": 100.5
+    },
+    {
+      "category": "clinical_warning",
+      "field": "map",
+      "location": "history_patients.json[5994]._detail_profile.map",
+      "maximum": 200.0,
+      "minimum": 20.0,
+      "severity": "warning",
+      "value": 18.0
+    }
+  ]
+}

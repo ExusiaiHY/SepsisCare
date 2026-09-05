@@ -1,0 +1,29 @@
+{
+  "allowed_actions": [
+    "apply_update_zip",
+    "restart_service",
+    "status",
+    "verify_actual_training"
+  ],
+  "allowed_update_files": [
+    "README_ROG_ACTUAL_TRAINING_UPDATE.md",
+    "deploy/audit_runtime_data.py",
+    "deploy/model_service.py",
+    "deploy/requirements_model_deploy.txt",
+    "deploy/start_model_service_windows.ps1",
+    "deploy/test_model_service.py",
+    "deploy/test_verify_artifact_bundle.py",
+    "deploy/verify_artifact_bundle.py",
+    "install_and_verify_rog_actual_training.cmd",
+    "scripts/update_rog_model_service.ps1",
+    "scripts/verify_rog_actual_training.ps1"
+  ],
+  "auth": "bearer-token-required-for-remote-clients",
+  "max_update_bytes": 2097152,
+  "model_id": "s7_phenotype_contrastive_full_20260516",
+  "ok": true,
+  "package_root": "managed-runtime/deploy-root",
+  "remote_ops_version": "2026.06.05",
+  "service": "sepsiscare-remote-ops",
+  "service_version": "1.0.0"
+}

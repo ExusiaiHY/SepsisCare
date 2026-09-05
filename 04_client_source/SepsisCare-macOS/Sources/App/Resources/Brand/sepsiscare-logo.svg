@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="sepsiscare logo">
+  <defs>
+    <linearGradient id="bg" x1="128" y1="96" x2="896" y2="928" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#06101F"/>
+      <stop offset="0.45" stop-color="#00ADA0"/>
+      <stop offset="0.78" stop-color="#1A66FA"/>
+      <stop offset="1" stop-color="#7547EB"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="48" y="48" width="928" height="928" rx="220" fill="url(#bg)"/>
+  <path d="M164 614h82l41-51 41 92 41-41h92l61-225 72 410 82-492 82 307h102" fill="none" stroke="#1FF0DC" stroke-width="58" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <path d="M282 170v210M177 275h210" fill="none" stroke="#FFFFFF" stroke-width="78" stroke-linecap="round"/>
+  <path d="M212 228h600M212 796h600M228 212v600M796 212v600" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-opacity="0.16"/>
+</svg>

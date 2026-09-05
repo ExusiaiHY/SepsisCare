@@ -1,0 +1,6 @@
+[2026-05-16 22:20:14] INFO     s7: ========================================================================
+[2026-05-16 22:20:14] INFO     s7: S7 all-source training complete
+[2026-05-16 22:20:14] INFO     s7: Total training patients: 347634
+[2026-05-16 22:20:14] INFO     s7: Report: /home/wangrk2026/sepsis_s7/data/s7_phenotype_contrastive_full_20260516/trajectory_encoder_report.json
+[2026-05-16 22:20:14] INFO     s7: Summary: /home/wangrk2026/sepsis_s7/data/s7_phenotype_contrastive_full_20260516/s7_all_source_training_summary.json
+[2026-05-16 22:20:14] INFO     s7: ========================================================================

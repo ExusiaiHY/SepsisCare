@@ -1,0 +1,30 @@
+{
+  "data_contract": {
+    "deidentification": "patient_key and bed_hash only; raw identifiers are not persisted",
+    "ingest_endpoint": "/api/icu/timeseries/ingest",
+    "training_endpoint": "/api/training/command"
+  },
+  "metrics": {
+    "accuracy": 0.884,
+    "data_parallel_gpus": 7,
+    "encoder_macro_f1": 0.99,
+    "epoch": 14,
+    "incremental_new_events": 6,
+    "incremental_train_events": 21,
+    "loss": 0.3517,
+    "macro_f1": 0.99,
+    "model_revision": "incremental-20260604T172236Z-21",
+    "mortality_auroc": 0.8484669929243582,
+    "next_mv_auroc": 0.9684646706192623,
+    "progress": 100,
+    "remaining_los_mae_hours": 2.9549930095672607,
+    "split_type": "in-sample monitoring",
+    "total_train_patients": 347655
+  },
+  "model_id": "s7_phenotype_contrastive_full_20260516",
+  "model_revision": "incremental-20260604T172236Z-21",
+  "new_events": 6,
+  "source": "icu_timeseries_incremental",
+  "total_events": 21,
+  "trained_at": "2026-06-05T01:22:36+08:00"
+}

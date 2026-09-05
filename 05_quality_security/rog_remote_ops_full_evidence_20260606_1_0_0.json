@@ -1,0 +1,165 @@
+{
+  "action": "full",
+  "apply_update": {
+    "action": "apply_update_zip",
+    "applied_files": [
+      "README_ROG_ACTUAL_TRAINING_UPDATE.md",
+      "deploy/audit_runtime_data.py",
+      "deploy/model_service.py",
+      "deploy/requirements_model_deploy.txt",
+      "deploy/start_model_service_windows.ps1",
+      "deploy/test_model_service.py",
+      "deploy/test_verify_artifact_bundle.py",
+      "deploy/verify_artifact_bundle.py",
+      "install_and_verify_rog_actual_training.cmd",
+      "scripts/update_rog_model_service.ps1",
+      "scripts/verify_rog_actual_training.ps1"
+    ],
+    "backed_up_files": [
+      "deploy\\audit_runtime_data.py",
+      "deploy\\model_service.py",
+      "deploy\\requirements_model_deploy.txt",
+      "deploy\\start_model_service_windows.ps1",
+      "deploy\\test_model_service.py",
+      "deploy\\test_verify_artifact_bundle.py",
+      "deploy\\verify_artifact_bundle.py"
+    ],
+    "backup_dir": "managed-runtime/remote_ops/backups/20260606T110115Z",
+    "evidence_path": "managed-runtime/remote_ops/apply_update_abf951bb88a16a0e.json",
+    "local_update_entries": [
+      "deploy/audit_runtime_data.py",
+      "deploy/model_service.py",
+      "deploy/requirements_model_deploy.txt",
+      "deploy/start_model_service_windows.ps1",
+      "deploy/test_model_service.py",
+      "deploy/test_verify_artifact_bundle.py",
+      "deploy/verify_artifact_bundle.py",
+      "install_and_verify_rog_actual_training.cmd",
+      "README_ROG_ACTUAL_TRAINING_UPDATE.md",
+      "scripts/update_rog_model_service.ps1",
+      "scripts/verify_rog_actual_training.ps1"
+    ],
+    "local_update_sha256": "abf951bb88a16a0e6c29175ece87c414d3610109bb03d5bdaaaff21e75198e7f",
+    "ok": true,
+    "restart_required": true,
+    "sha256": "abf951bb88a16a0e6c29175ece87c414d3610109bb03d5bdaaaff21e75198e7f"
+  },
+  "initial_status": {
+    "allowed_actions": [
+      "apply_update_zip",
+      "restart_service",
+      "status",
+      "verify_actual_training"
+    ],
+    "allowed_update_files": [
+      "README_ROG_ACTUAL_TRAINING_UPDATE.md",
+      "deploy/audit_runtime_data.py",
+      "deploy/model_service.py",
+      "deploy/requirements_model_deploy.txt",
+      "deploy/start_model_service_windows.ps1",
+      "deploy/test_model_service.py",
+      "deploy/test_verify_artifact_bundle.py",
+      "deploy/verify_artifact_bundle.py",
+      "install_and_verify_rog_actual_training.cmd",
+      "scripts/update_rog_model_service.ps1",
+      "scripts/verify_rog_actual_training.ps1"
+    ],
+    "auth": "bearer-token-required-for-remote-clients",
+    "max_update_bytes": 2097152,
+    "model_id": "s7_phenotype_contrastive_full_20260516",
+    "ok": true,
+    "package_root": "managed-runtime/deploy-root",
+    "remote_ops_version": "2026.06.05",
+    "service": "sepsiscare-remote-ops",
+    "service_version": "1.0.0"
+  },
+  "ok": true,
+  "ready_status": {
+    "allowed_actions": [
+      "apply_update_zip",
+      "restart_service",
+      "status",
+      "verify_actual_training"
+    ],
+    "allowed_update_files": [
+      "README_ROG_ACTUAL_TRAINING_UPDATE.md",
+      "deploy/audit_runtime_data.py",
+      "deploy/model_service.py",
+      "deploy/requirements_model_deploy.txt",
+      "deploy/start_model_service_windows.ps1",
+      "deploy/test_model_service.py",
+      "deploy/test_verify_artifact_bundle.py",
+      "deploy/verify_artifact_bundle.py",
+      "install_and_verify_rog_actual_training.cmd",
+      "scripts/update_rog_model_service.ps1",
+      "scripts/verify_rog_actual_training.ps1"
+    ],
+    "auth": "bearer-token-required-for-remote-clients",
+    "max_update_bytes": 2097152,
+    "model_id": "s7_phenotype_contrastive_full_20260516",
+    "ok": true,
+    "package_root": "managed-runtime/deploy-root",
+    "remote_ops_version": "2026.06.05",
+    "service": "sepsiscare-remote-ops",
+    "service_version": "1.0.0"
+  },
+  "restart": {
+    "action": "restart_service",
+    "host_address": "0.0.0.0",
+    "ok": true,
+    "port": 8788,
+    "status": "restart_started"
+  },
+  "verification": {
+    "accepted": 2,
+    "action": "verify_actual_training",
+    "adapter": {
+      "data_sha256": "276b5b7762af21f75e04e683b3211a8d428c0de48abe09c03ec384ee2ab9249f",
+      "loss": 0.647811,
+      "optimizer_steps": 136,
+      "path": "managed-runtime/models/incremental_icu_adapter.json",
+      "training_examples": 2,
+      "weights": {
+        "labs.lactate": 0.0849549,
+        "vitals.heart_rate": 0.11283928
+      }
+    },
+    "before_total": 15,
+    "evidence_path": "managed-runtime/remote_ops/actual_training_evidence_20260606T110116Z.json",
+    "ok": true,
+    "total_events": 17,
+    "trained_event_count": 17,
+    "training": {
+      "metrics": {
+        "accuracy": 0.876,
+        "actual_training_examples": 2,
+        "data_parallel_gpus": 7,
+        "encoder_macro_f1": 0.987915,
+        "epoch": 16,
+        "incremental_adapter_data_sha256": "276b5b7762af21f7",
+        "incremental_adapter_loss": 0.647811,
+        "incremental_adapter_path": "managed-runtime/models/incremental_icu_adapter.json",
+        "incremental_new_events": 2,
+        "incremental_train_events": 17,
+        "loss": 0.367,
+        "macro_f1": 0.99,
+        "model_revision": "incremental-20260606T110116Z-17",
+        "mortality_auroc": 0.8484669929243582,
+        "next_mv_auroc": 0.9684646706192623,
+        "progress": 100,
+        "remaining_los_mae_hours": 2.9549930095672607,
+        "split_type": "in-sample monitoring",
+        "total_train_patients": 347651
+      },
+      "output": [
+        "已基于 2 条新 ICU 时序事件完成实际 adapter 增量训练。",
+        "model_revision=incremental-20260606T110116Z-17",
+        "adapter_loss=0.647811 optimizer_steps=136",
+        "total_train_patients=347651 macro_f1=0.99",
+        "adapter=managed-runtime/models/incremental_icu_adapter.json",
+        "report=managed-runtime/reports/incremental_training/incremental-20260606T110116Z-17.json"
+      ],
+      "task_status": "trained"
+    }
+  }
+}

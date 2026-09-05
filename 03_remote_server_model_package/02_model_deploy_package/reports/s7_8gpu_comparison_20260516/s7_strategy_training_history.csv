@@ -1,0 +1,70 @@
+run_id,strategy,stage,epoch,val_score,val_avg_score,val_worst_score,train_loss,train_auxiliary_loss,time_s
+s6_trajectory_encoder_s19_aux_v1,S6 + PhysioNet2019 aux,s19_aux,1,1.7952,,,0.68741,,25.33
+s6_trajectory_encoder_s19_aux_v1,S6 + PhysioNet2019 aux,s19_aux,2,1.81419,,,0.55455,,21.6
+s6_trajectory_encoder_s19_aux_v1,S6 + PhysioNet2019 aux,s19_aux,3,1.82426,,,0.53063,,21.48
+s6_trajectory_encoder_s19_aux_v1,S6 + PhysioNet2019 aux,s19_aux,4,1.82436,,,0.51909,,21.52
+s6_trajectory_encoder_s19_aux_v1,S6 + PhysioNet2019 aux,s0_aux,1,1.24724,,,0.6261,,5.29
+s6_trajectory_encoder_s19_aux_v1,S6 + PhysioNet2019 aux,s0_aux,2,1.2937,,,0.47174,,4.93
+s6_trajectory_encoder_s19_aux_v1,S6 + PhysioNet2019 aux,s0_aux,3,1.30657,,,0.44106,,4.9
+s6_trajectory_encoder_s19_aux_v1,S6 + PhysioNet2019 aux,s0_aux,4,1.30862,,,0.4247,,4.99
+s6_trajectory_encoder_s19_aux_v1,S6 + PhysioNet2019 aux,s0_aux,5,1.31275,,,0.41445,,4.87
+s6_trajectory_encoder_s19_aux_v1,S6 + PhysioNet2019 aux,s0_aux,6,1.31134,,,0.40254,,4.92
+s6_trajectory_encoder_s19_aux_v1,S6 + PhysioNet2019 aux,s0_aux,7,1.30885,,,0.39273,,4.86
+s6_trajectory_encoder_s19_aux_v1,S6 + PhysioNet2019 aux,s0_aux,8,1.30159,,,0.37899,,4.87
+s6_trajectory_encoder_loso_mimic_v1,LOSO: exclude MIMIC,aux_1_s19,1,1.76078,,,0.75171,,26.13
+s6_trajectory_encoder_loso_mimic_v1,LOSO: exclude MIMIC,aux_1_s19,2,1.80592,,,0.58603,,24.33
+s6_trajectory_encoder_loso_mimic_v1,LOSO: exclude MIMIC,aux_2_eicu,1,0.7462,,,0.31323,,127.54
+s6_trajectory_encoder_loso_mimic_v1,LOSO: exclude MIMIC,aux_2_eicu,2,0.75168,,,0.26558,,120.8
+s6_trajectory_encoder_loso_mimic_v1,LOSO: exclude MIMIC,s0_aux,1,1.23646,,,1.0461,,5.88
+s6_trajectory_encoder_loso_mimic_v1,LOSO: exclude MIMIC,s0_aux,2,1.26289,,,0.65912,,5.53
+s6_trajectory_encoder_loso_mimic_v1,LOSO: exclude MIMIC,s0_aux,3,1.27481,,,0.63406,,5.5
+s6_trajectory_encoder_loso_mimic_v1,LOSO: exclude MIMIC,s0_aux,4,1.28024,,,0.61277,,5.53
+s6_trajectory_encoder_loso_mimic_v1,LOSO: exclude MIMIC,s0_aux,5,1.27832,,,0.58758,,5.44
+s6_trajectory_encoder_loso_mimic_v1,LOSO: exclude MIMIC,s0_aux,6,1.28325,,,0.54489,,5.47
+s6_trajectory_encoder_loso_eicu_v1,LOSO: exclude eICU,aux_1_s19,1,1.76078,,,0.75171,,26.69
+s6_trajectory_encoder_loso_eicu_v1,LOSO: exclude eICU,aux_1_s19,2,1.80592,,,0.58603,,24.46
+s6_trajectory_encoder_loso_eicu_v1,LOSO: exclude eICU,aux_2_mimic,1,0.71062,,,0.34396,,63.12
+s6_trajectory_encoder_loso_eicu_v1,LOSO: exclude eICU,aux_2_mimic,2,0.71986,,,0.28423,,56.75
+s6_trajectory_encoder_loso_eicu_v1,LOSO: exclude eICU,s0_aux,1,1.24998,,,0.84879,,5.8
+s6_trajectory_encoder_loso_eicu_v1,LOSO: exclude eICU,s0_aux,2,1.26698,,,0.64154,,5.49
+s6_trajectory_encoder_loso_eicu_v1,LOSO: exclude eICU,s0_aux,3,1.2777,,,0.5893,,5.47
+s6_trajectory_encoder_loso_eicu_v1,LOSO: exclude eICU,s0_aux,4,1.29053,,,0.51527,,5.47
+s6_trajectory_encoder_loso_eicu_v1,LOSO: exclude eICU,s0_aux,5,1.29927,,,0.47099,,5.53
+s6_trajectory_encoder_loso_eicu_v1,LOSO: exclude eICU,s0_aux,6,1.30162,,,0.44853,,5.5
+s6_trajectory_encoder_source_balanced_dann_coral_v1,Source-balanced,source_balanced_aux,1,1.05844,,,0.96389,0.89247,93.61
+s6_trajectory_encoder_source_balanced_dann_coral_v1,Source-balanced,source_balanced_aux,2,1.09258,,,0.66601,0.60677,74.96
+s6_trajectory_encoder_source_balanced_dann_coral_v1,Source-balanced,source_balanced_aux,3,1.10386,,,0.6316,0.5745,73.36
+s6_trajectory_encoder_source_balanced_dann_coral_v1,Source-balanced,source_balanced_aux,4,1.11206,,,0.60248,0.54759,74.47
+s6_trajectory_encoder_source_balanced_dann_coral_s0ft_v1,Source-balanced + S0 FT,source_balanced_aux,1,1.05844,,,0.96389,0.89247,86.3
+s6_trajectory_encoder_source_balanced_dann_coral_s0ft_v1,Source-balanced + S0 FT,source_balanced_aux,2,1.09258,,,0.66601,0.60677,72.89
+s6_trajectory_encoder_source_balanced_dann_coral_s0ft_v1,Source-balanced + S0 FT,source_balanced_aux,3,1.10386,,,0.6316,0.5745,75.71
+s6_trajectory_encoder_source_balanced_dann_coral_s0ft_v1,Source-balanced + S0 FT,source_balanced_aux,4,1.11206,,,0.60248,0.54759,83.72
+s6_trajectory_encoder_source_balanced_dann_coral_s0ft_v1,Source-balanced + S0 FT,s0_aux,1,1.28748,,,0.51808,,6.12
+s6_trajectory_encoder_source_balanced_dann_coral_s0ft_v1,Source-balanced + S0 FT,s0_aux,2,1.29041,,,0.46561,,6.34
+s6_trajectory_encoder_source_balanced_dann_coral_s0ft_v1,Source-balanced + S0 FT,s0_aux,3,1.3023,,,0.43775,,6.15
+s6_trajectory_encoder_source_balanced_dann_coral_s0ft_v1,Source-balanced + S0 FT,s0_aux,4,1.29566,,,0.42435,,5.96
+s6_trajectory_encoder_missing_groupdro_s0ft_v1,Missingness-aware GroupDRO + S0 FT,source_balanced_aux,1,0.62372,1.0681,0.62372,0.7643,0.7643,188.96
+s6_trajectory_encoder_missing_groupdro_s0ft_v1,Missingness-aware GroupDRO + S0 FT,source_balanced_aux,2,0.56585,1.06172,0.56585,0.60807,0.60807,162.69
+s6_trajectory_encoder_missing_groupdro_s0ft_v1,Missingness-aware GroupDRO + S0 FT,source_balanced_aux,3,0.57168,1.07517,0.57168,0.55388,0.55388,162.93
+s6_trajectory_encoder_missing_groupdro_s0ft_v1,Missingness-aware GroupDRO + S0 FT,s0_aux,1,1.28091,,,0.61262,,8.14
+s6_trajectory_encoder_missing_groupdro_s0ft_v1,Missingness-aware GroupDRO + S0 FT,s0_aux,2,1.28986,,,0.52516,,5.71
+s6_trajectory_encoder_missing_groupdro_s0ft_v1,Missingness-aware GroupDRO + S0 FT,s0_aux,3,1.29707,,,0.4687,,5.66
+s6_trajectory_encoder_missing_groupdro_s0ft_v1,Missingness-aware GroupDRO + S0 FT,s0_aux,4,1.30446,,,0.43719,,5.67
+s6_trajectory_encoder_grud_groupdro_v2_planB,GRU-D GroupDRO,source_balanced_aux,1,0.63328,1.03929,0.63328,0.72977,0.72977,996.93
+s6_trajectory_encoder_grud_groupdro_v2_planB,GRU-D GroupDRO,source_balanced_aux,2,0.65678,1.06618,0.65678,0.57141,0.57141,1101.67
+s6_trajectory_encoder_grud_groupdro_v2_planB,GRU-D GroupDRO,source_balanced_aux,3,0.66529,1.08299,0.66529,0.54441,0.54441,1089.01
+s6_trajectory_encoder_grud_groupdro_v2_planB,GRU-D GroupDRO,source_balanced_aux,4,0.66747,1.09316,0.66747,0.51733,0.51733,1085.05
+s6_trajectory_encoder_grud_groupdro_v2_planB,GRU-D GroupDRO,source_balanced_aux,5,0.66629,1.09305,0.66629,0.50197,0.50197,1099.97
+s6_trajectory_encoder_grud_groupdro_v2_planB,GRU-D GroupDRO,source_balanced_aux,6,0.66677,1.09258,0.66677,0.49441,0.49441,1071.09
+s6_trajectory_encoder_grud_groupdro_v2_planB,GRU-D GroupDRO,source_balanced_aux,7,0.668,1.09432,0.668,0.49449,0.49449,1062.57
+s6_trajectory_encoder_grud_groupdro_v2_planB,GRU-D GroupDRO,source_balanced_aux,8,0.66754,1.09618,0.66754,0.49274,0.49274,1059.31
+s6_trajectory_encoder_grud_groupdro_v2_planB,GRU-D GroupDRO,source_balanced_aux,9,0.66512,1.0933,0.66512,0.49524,0.49524,1057.2
+s6_trajectory_encoder_grud_groupdro_v2_planB,GRU-D GroupDRO,source_balanced_aux,10,0.66642,1.08935,0.66642,0.49731,0.49731,1054.16
+s6_trajectory_encoder_grud_groupdro_v2_planB,GRU-D GroupDRO,source_balanced_aux,11,0.66759,1.08513,0.66759,0.50498,0.50498,939.46
+s7_all_sources_8gpu_20260516_1945,S7 all-source 8GPU,source_balanced_aux,1,0.6965,1.13012,0.6965,0.5882,0.5882,389.39
+s7_all_sources_8gpu_20260516_1945,S7 all-source 8GPU,source_balanced_aux,2,0.70798,1.14975,0.70798,0.44429,0.44429,382.52
+s7_all_sources_8gpu_20260516_1945,S7 all-source 8GPU,source_balanced_aux,3,0.71043,1.15787,0.71043,0.43425,0.43425,381.69
+s7_all_sources_8gpu_20260516_1945,S7 all-source 8GPU,source_balanced_aux,4,0.71267,1.16519,0.71267,0.43652,0.43652,381.31
+s7_all_sources_8gpu_20260516_1945,S7 all-source 8GPU,source_balanced_aux,5,0.71303,1.16994,0.71303,0.43991,0.43991,381.86
+s7_all_sources_8gpu_20260516_1945,S7 all-source 8GPU,source_balanced_aux,6,0.71192,1.17539,0.71192,0.44321,0.44321,382.44
+s7_all_sources_8gpu_20260516_1945,S7 all-source 8GPU,source_balanced_aux,7,0.70787,1.17645,0.70787,0.4452,0.4452,380.25

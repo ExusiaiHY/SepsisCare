@@ -1,0 +1,31 @@
+{
+  "artifacts": [
+    {
+      "created_at": "2026-06-07T21:24:19+08:00",
+      "download_url": "/api/artifacts/latest",
+      "kind": "model_artifacts",
+      "manifest": "MANIFEST.sha256",
+      "name": "sepsiscare_model_artifacts_latest.zip",
+      "path": "managed-runtime/artifacts/sepsiscare_model_artifacts_latest.zip",
+      "sha256": "ec5083eef25fd89dda8e889cbf7c7d8fcac5b000b01ae310fe9ced90074a2733",
+      "size_bytes": 4198453
+    }
+  ],
+  "metrics": {
+    "accuracy": null,
+    "data_parallel_gpus": 7,
+    "encoder_macro_f1": 0.9709154883540718,
+    "epoch": 8,
+    "loss": null,
+    "macro_f1": 0.9562308594924265,
+    "mortality_auroc": 0.8484669929243582,
+    "next_mv_auroc": 0.9684646706192623,
+    "progress": 100,
+    "remaining_los_mae_hours": 2.9549930095672607,
+    "split_type": "in-sample monitoring",
+    "total_train_patients": 347634
+  },
+  "model_id": "s7_phenotype_contrastive_full_20260516",
+  "task_status": "idle",
+  "updated_at": "2026-06-07T21:24:20+08:00"
+}

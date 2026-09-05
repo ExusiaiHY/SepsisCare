@@ -1,0 +1,21 @@
+run_id,strategy,source,train_patients,sepsis_label_coverage,next_mv_coverage,next_rrt_coverage
+s6_trajectory_encoder_source_balanced_dann_coral_v1,Source-balanced,s0,6191,0.0,0.8,0.0
+s6_trajectory_encoder_source_balanced_dann_coral_v1,Source-balanced,s19,28231,1.0,0.8,0.0
+s6_trajectory_encoder_source_balanced_dann_coral_v1,Source-balanced,mimic,66120,0.0,0.8,0.0
+s6_trajectory_encoder_source_balanced_dann_coral_v1,Source-balanced,eicu,140601,0.0,0.8,0.8
+s6_trajectory_encoder_source_balanced_dann_coral_s0ft_v1,Source-balanced + S0 FT,s0,6191,0.0,0.8,0.0
+s6_trajectory_encoder_source_balanced_dann_coral_s0ft_v1,Source-balanced + S0 FT,s19,28231,1.0,0.8,0.0
+s6_trajectory_encoder_source_balanced_dann_coral_s0ft_v1,Source-balanced + S0 FT,mimic,66120,0.0,0.8,0.0
+s6_trajectory_encoder_source_balanced_dann_coral_s0ft_v1,Source-balanced + S0 FT,eicu,140601,0.0,0.8,0.8
+s6_trajectory_encoder_missing_groupdro_s0ft_v1,Missingness-aware GroupDRO + S0 FT,s0,6191,0.0,0.8,0.0
+s6_trajectory_encoder_missing_groupdro_s0ft_v1,Missingness-aware GroupDRO + S0 FT,s19,28231,1.0,0.8,0.0
+s6_trajectory_encoder_missing_groupdro_s0ft_v1,Missingness-aware GroupDRO + S0 FT,mimic,66120,0.0,0.8,0.0
+s6_trajectory_encoder_missing_groupdro_s0ft_v1,Missingness-aware GroupDRO + S0 FT,eicu,140601,0.0,0.8,0.8
+s6_trajectory_encoder_grud_groupdro_v2_planB,GRU-D GroupDRO,s0,6191,0.0,0.8,0.0
+s6_trajectory_encoder_grud_groupdro_v2_planB,GRU-D GroupDRO,s19,28231,1.0,0.8,0.0
+s6_trajectory_encoder_grud_groupdro_v2_planB,GRU-D GroupDRO,mimic,66120,0.0,0.8,0.0
+s6_trajectory_encoder_grud_groupdro_v2_planB,GRU-D GroupDRO,eicu,140601,0.0,0.8,0.8
+s7_all_sources_8gpu_20260516_1945,S7 all-source 8GPU,s0,11986,0.0,0.8,0.0
+s7_all_sources_8gpu_20260516_1945,S7 all-source 8GPU,physionet2019,40331,1.0,0.8,0.0
+s7_all_sources_8gpu_20260516_1945,S7 all-source 8GPU,mimiciv,94458,0.0,0.8,0.0
+s7_all_sources_8gpu_20260516_1945,S7 all-source 8GPU,eicu,200859,0.0,0.8,0.8

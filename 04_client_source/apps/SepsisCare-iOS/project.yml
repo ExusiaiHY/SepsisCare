@@ -1,0 +1,19 @@
+name: SepsisCare-iOS
+options:
+  bundleIdPrefix: care.sepsis
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  SepsisCare-iOS:
+    type: application
+    platform: iOS
+    sources:
+      - Sources
+    resources:
+      - Resources
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: care.sepsis.ios
+      MARKETING_VERSION: "0.9.1"
+      CURRENT_PROJECT_VERSION: "2026.05.18.1"
+      INFOPLIST_FILE: Resources/Info.plist
+      ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon

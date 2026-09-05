@@ -1,0 +1,2260 @@
+{
+  "experiment": "s6_trajectory_encoder",
+  "generated_at": "2026-05-16T22:20:13",
+  "data": {
+    "s0_dir": "/home/wangrk2026/sepsis_s7/data/s0",
+    "s2_dir": "/home/wangrk2026/sepsis_s7/data/s2",
+    "aux_s0_dir": null,
+    "aux_sources": [
+      {
+        "name": "physionet2019",
+        "source_id": 1,
+        "is_main": false,
+        "s0_dir": "/home/wangrk2026/sepsis_s7/data/s19_bridge",
+        "n_patients": 40331,
+        "split_sizes": {
+          "train": 40331,
+          "val": 40331,
+          "test": 40331
+        },
+        "next_mv_coverage": 0.8,
+        "next_rrt_coverage": 0.0,
+        "sepsis_label_coverage": 1.0,
+        "epochs_trained": 8,
+        "los_mean_log1p_train": 1.1458532810211182,
+        "los_std_log1p_train": 1.2757960557937622
+      },
+      {
+        "name": "mimiciv",
+        "source_id": 2,
+        "is_main": false,
+        "s0_dir": "/home/wangrk2026/sepsis_s7/data/external_temporal/mimic/s0",
+        "n_patients": 94458,
+        "split_sizes": {
+          "train": 94458,
+          "val": 94458,
+          "test": 94458
+        },
+        "next_mv_coverage": 0.8,
+        "next_rrt_coverage": 0.0,
+        "sepsis_label_coverage": 0.0,
+        "epochs_trained": 8,
+        "los_mean_log1p_train": 2.3059229850769043,
+        "los_std_log1p_train": 2.0763461589813232
+      },
+      {
+        "name": "eicu",
+        "source_id": 3,
+        "is_main": false,
+        "s0_dir": "/home/wangrk2026/sepsis_s7/data/external_temporal/eicu/s0",
+        "n_patients": 200859,
+        "split_sizes": {
+          "train": 200859,
+          "val": 200859,
+          "test": 200859
+        },
+        "next_mv_coverage": 0.8,
+        "next_rrt_coverage": 0.8,
+        "sepsis_label_coverage": 0.0,
+        "epochs_trained": 8,
+        "los_mean_log1p_train": 1.8199126720428467,
+        "los_std_log1p_train": 1.9921276569366455
+      }
+    ],
+    "balanced_sources": [
+      {
+        "name": "s0",
+        "source_id": 0,
+        "is_main": true,
+        "s0_dir": "/home/wangrk2026/sepsis_s7/data/s0",
+        "n_patients": 11986,
+        "split_sizes": {
+          "train": 11986,
+          "val": 11986,
+          "test": 11986
+        },
+        "next_mv_coverage": 0.8,
+        "next_rrt_coverage": 0.0,
+        "sepsis_label_coverage": 0.0,
+        "epochs_trained": 8,
+        "los_mean_log1p_train": 2.080326795578003,
+        "los_std_log1p_train": 1.150726318359375
+      },
+      {
+        "name": "physionet2019",
+        "source_id": 1,
+        "is_main": false,
+        "s0_dir": "/home/wangrk2026/sepsis_s7/data/s19_bridge",
+        "n_patients": 40331,
+        "split_sizes": {
+          "train": 40331,
+          "val": 40331,
+          "test": 40331
+        },
+        "next_mv_coverage": 0.8,
+        "next_rrt_coverage": 0.0,
+        "sepsis_label_coverage": 1.0,
+        "epochs_trained": 8,
+        "los_mean_log1p_train": 1.1458532810211182,
+        "los_std_log1p_train": 1.2757960557937622
+      },
+      {
+        "name": "mimiciv",
+        "source_id": 2,
+        "is_main": false,
+        "s0_dir": "/home/wangrk2026/sepsis_s7/data/external_temporal/mimic/s0",
+        "n_patients": 94458,
+        "split_sizes": {
+          "train": 94458,
+          "val": 94458,
+          "test": 94458
+        },
+        "next_mv_coverage": 0.8,
+        "next_rrt_coverage": 0.0,
+        "sepsis_label_coverage": 0.0,
+        "epochs_trained": 8,
+        "los_mean_log1p_train": 2.3059229850769043,
+        "los_std_log1p_train": 2.0763461589813232
+      },
+      {
+        "name": "eicu",
+        "source_id": 3,
+        "is_main": false,
+        "s0_dir": "/home/wangrk2026/sepsis_s7/data/external_temporal/eicu/s0",
+        "n_patients": 200859,
+        "split_sizes": {
+          "train": 200859,
+          "val": 200859,
+          "test": 200859
+        },
+        "next_mv_coverage": 0.8,
+        "next_rrt_coverage": 0.8,
+        "sepsis_label_coverage": 0.0,
+        "epochs_trained": 8,
+        "los_mean_log1p_train": 1.8199126720428467,
+        "los_std_log1p_train": 1.9921276569366455
+      }
+    ],
+    "n_patients": 11986,
+    "n_windows": 5,
+    "n_classes": 4,
+    "window_starts": [
+      0,
+      6,
+      12,
+      18,
+      24
+    ],
+    "window_len": 24,
+    "stride": 6,
+    "base_input_dim": 48,
+    "input_dim": 71,
+    "missingness_aware_delta_dim": 23,
+    "split_sizes": {
+      "train": 11986,
+      "val": 11986,
+      "test": 11986
+    },
+    "next_mv_coverage": 0.8,
+    "next_rrt_coverage": 0.0,
+    "sepsis_label_coverage": 0.0,
+    "auxiliary": {
+      "name": "eicu",
+      "source_id": 3,
+      "is_main": false,
+      "s0_dir": "/home/wangrk2026/sepsis_s7/data/external_temporal/eicu/s0",
+      "n_patients": 200859,
+      "split_sizes": {
+        "train": 200859,
+        "val": 200859,
+        "test": 200859
+      },
+      "next_mv_coverage": 0.8,
+      "next_rrt_coverage": 0.8,
+      "sepsis_label_coverage": 0.0,
+      "epochs_trained": 8,
+      "los_mean_log1p_train": 1.8199126720428467,
+      "los_std_log1p_train": 1.9921276569366455
+    },
+    "s7_sources": {
+      "physionet2012": {
+        "name": "physionet2012",
+        "role": "train",
+        "s0_dir": "/home/wangrk2026/sepsis_s7/data/s0",
+        "s2_dir": "/home/wangrk2026/sepsis_s7/data/s2",
+        "splits_path": "/home/wangrk2026/sepsis_s7/data/s7_phenotype_contrastive_full_20260516/splits/physionet2012_all_train_splits.json",
+        "split_sizes": {
+          "train": 11986,
+          "val": 11986,
+          "test": 11986
+        },
+        "split_policy": "full_overlap_all_patients",
+        "heldout": false
+      },
+      "physionet2019": {
+        "name": "physionet2019",
+        "role": "train",
+        "s0_dir": "/home/wangrk2026/sepsis_s7/data/s19_bridge",
+        "s2_dir": null,
+        "splits_path": "/home/wangrk2026/sepsis_s7/data/s7_phenotype_contrastive_full_20260516/splits/physionet2019_all_train_splits.json",
+        "split_sizes": {
+          "train": 40331,
+          "val": 40331,
+          "test": 40331
+        },
+        "split_policy": "full_overlap_all_patients",
+        "heldout": false
+      },
+      "mimiciv": {
+        "name": "mimiciv",
+        "role": "train",
+        "s0_dir": "/home/wangrk2026/sepsis_s7/data/external_temporal/mimic/s0",
+        "s2_dir": null,
+        "splits_path": "/home/wangrk2026/sepsis_s7/data/s7_phenotype_contrastive_full_20260516/splits/mimiciv_all_train_splits.json",
+        "split_sizes": {
+          "train": 94458,
+          "val": 94458,
+          "test": 94458
+        },
+        "split_policy": "full_overlap_all_patients",
+        "heldout": false
+      },
+      "eicu": {
+        "name": "eicu",
+        "role": "train",
+        "s0_dir": "/home/wangrk2026/sepsis_s7/data/external_temporal/eicu/s0",
+        "s2_dir": null,
+        "splits_path": "/home/wangrk2026/sepsis_s7/data/s7_phenotype_contrastive_full_20260516/splits/eicu_all_train_splits.json",
+        "split_sizes": {
+          "train": 200859,
+          "val": 200859,
+          "test": 200859
+        },
+        "split_policy": "full_overlap_all_patients",
+        "heldout": false
+      }
+    },
+    "s7_total_train_patients": 347634
+  },
+  "leakage_guard": {
+    "patient_level_split": true,
+    "los_scaler_fit_on": "train_only",
+    "auxiliary_pretraining_uses_phenotype_labels": true,
+    "phenotype_supervision_source": "main_source_only",
+    "auxiliary_pretraining_sources": [
+      "/home/wangrk2026/sepsis_s7/data/s19_bridge",
+      "/home/wangrk2026/sepsis_s7/data/external_temporal/mimic/s0",
+      "/home/wangrk2026/sepsis_s7/data/external_temporal/eicu/s0"
+    ],
+    "source_balanced_training_uses_phenotype_labels": true,
+    "external_sources_use_phenotype_labels": false,
+    "source_balanced_sources": [
+      "/home/wangrk2026/sepsis_s7/data/s0",
+      "/home/wangrk2026/sepsis_s7/data/s19_bridge",
+      "/home/wangrk2026/sepsis_s7/data/external_temporal/mimic/s0",
+      "/home/wangrk2026/sepsis_s7/data/external_temporal/eicu/s0"
+    ],
+    "transition_matrix_fit_on": "train_only phenotype trajectories",
+    "phenotype_readout_fit_on": "train_only encoder embeddings and train phenotype labels",
+    "encoder_training_uses_phenotype_labels": true,
+    "future_input_masking": "hours after current window end are zeroed before encoder input",
+    "next_treatment_targets": "non-overlapping future stride after current window",
+    "s7_all_sources_used_for_training": true,
+    "s7_monitoring_splits_overlap_train": true,
+    "s7_heldout_validation": false
+  },
+  "model": {
+    "recurrent": "gru",
+    "hidden_dim": 64,
+    "embedding_dim": 64,
+    "num_layers": 1,
+    "dropout": 0.1,
+    "n_sources": 0,
+    "n_phenotype_classes": 4,
+    "missingness_aware": true,
+    "delta_clip_hours": 48.0,
+    "gru_d_imputation": false,
+    "gru_d_n_continuous": 21,
+    "gru_d_side_dim": 8,
+    "n_parameters": 31319,
+    "data_parallel_gpus": 7
+  },
+  "training": {
+    "epochs_requested": 0,
+    "epochs_trained": 0,
+    "aux_epochs_requested": 8,
+    "aux_epochs_trained": 8,
+    "aux_training_mode": "source_balanced",
+    "balanced_include_main_source": true,
+    "balanced_steps_per_epoch": 160,
+    "domain_invariance": "none",
+    "lambda_domain": 0.1,
+    "domain_grl_lambda": 1.0,
+    "source_objective": "group_dro",
+    "group_dro_eta": 0.005,
+    "missingness_aware": true,
+    "delta_clip_hours": 48.0,
+    "batch_size": 512,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "data_parallel_gpus": 7,
+    "num_workers": 2,
+    "pin_memory": true,
+    "lambda_mortality": 1.0,
+    "lambda_sepsis": 1.0,
+    "lambda_los": 0.5,
+    "lambda_next_mv": 0.5,
+    "lambda_next_rrt": 0.5,
+    "lambda_phenotype": 0.75,
+    "lambda_phenotype_contrastive": 0.1,
+    "phenotype_contrastive_temperature": 0.2,
+    "patience": 2,
+    "seed": 42,
+    "device": "cuda",
+    "los_mean_log1p_train": 2.080326795578003,
+    "los_std_log1p_train": 1.150726318359375,
+    "aux_los_mean_log1p_train": 1.8199126720428467,
+    "aux_los_std_log1p_train": 1.9921276569366455
+  },
+  "transition": {
+    "alpha": 1.0,
+    "transition_weight": 1.0,
+    "init_probs": [
+      0.245538,
+      0.357131,
+      0.158716,
+      0.238616
+    ],
+    "transition_probs": [
+      [
+        0.927468,
+        0.020481,
+        0.010795,
+        0.041257
+      ],
+      [
+        0.06052,
+        0.879909,
+        0.01347,
+        0.046101
+      ],
+      [
+        0.048653,
+        0.050546,
+        0.869629,
+        0.031173
+      ],
+      [
+        0.06073,
+        0.03096,
+        0.012418,
+        0.895892
+      ]
+    ]
+  },
+  "auxiliary_history": [
+    {
+      "stage": "source_balanced_aux",
+      "epoch": 1,
+      "time_s": 304.16,
+      "train_loss": 1.63526,
+      "train_auxiliary_loss": 0.74313,
+      "train_domain_loss": 0.0,
+      "train_phenotype_loss": 0.89212,
+      "train_phenotype_ce_loss": 0.4329,
+      "train_phenotype_contrastive_loss": 5.67449,
+      "train_phenotype_accuracy": 0.82882,
+      "train_source_accuracy": null,
+      "train_coral_loss": null,
+      "train_source_losses": {
+        "s0": 0.83796,
+        "physionet2019": 0.98912,
+        "mimiciv": 0.51355,
+        "eicu": 0.57065
+      },
+      "group_dro_weights": {
+        "s0": 0.26973,
+        "physionet2019": 0.3044,
+        "mimiciv": 0.20807,
+        "eicu": 0.2178
+      },
+      "val_score": 0.62993,
+      "val_avg_score": 1.05442,
+      "val_worst_score": 0.62993,
+      "val_by_source": {
+        "s0": {
+          "source_id": 0,
+          "is_main": true,
+          "val_score": 1.2223773365446347,
+          "auxiliary": {
+            "mortality_auroc": 0.7876859840103753,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 7.129441261291504,
+            "next_mv_auroc": 0.9287947155792813,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "physionet2019": {
+          "source_id": 1,
+          "is_main": false,
+          "val_score": 1.6942033327895363,
+          "auxiliary": {
+            "mortality_auroc": 0.8275096680094944,
+            "sepsis_auroc": 0.8149200954567394,
+            "sepsis_coverage": 1.0,
+            "remaining_los_mae_hours": 3.7243597507476807,
+            "next_mv_auroc": 0.9495035653595749,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "mimiciv": {
+          "source_id": 2,
+          "is_main": false,
+          "val_score": 0.629929580312356,
+          "auxiliary": {
+            "mortality_auroc": 0.8220517059379664,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 46.109310150146484,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "eicu": {
+          "source_id": 3,
+          "is_main": false,
+          "val_score": 0.671152492977454,
+          "auxiliary": {
+            "mortality_auroc": 0.7966148740224777,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 30.110971450805664,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": 0.9578411438688169,
+            "next_rrt_coverage": 0.8
+          }
+        }
+      },
+      "balanced_steps_per_epoch": 160,
+      "n_sources": 4,
+      "domain_invariance": "none",
+      "lambda_domain": 0.1,
+      "lambda_phenotype": 0.75,
+      "lambda_phenotype_contrastive": 0.1,
+      "phenotype_contrastive_temperature": 0.2,
+      "source_objective": "group_dro",
+      "group_dro_eta": 0.005
+    },
+    {
+      "stage": "source_balanced_aux",
+      "epoch": 2,
+      "time_s": 297.76,
+      "train_loss": 1.21715,
+      "train_auxiliary_loss": 0.55824,
+      "train_domain_loss": 0.0,
+      "train_phenotype_loss": 0.65891,
+      "train_phenotype_ce_loss": 0.1646,
+      "train_phenotype_contrastive_loss": 5.35463,
+      "train_phenotype_accuracy": 0.93414,
+      "train_source_accuracy": null,
+      "train_coral_loss": null,
+      "train_source_losses": {
+        "s0": 0.69079,
+        "physionet2019": 0.68762,
+        "mimiciv": 0.36041,
+        "eicu": 0.35306
+      },
+      "group_dro_weights": {
+        "s0": 0.29992,
+        "physionet2019": 0.33762,
+        "mimiciv": 0.17763,
+        "eicu": 0.18484
+      },
+      "val_score": 0.65975,
+      "val_avg_score": 1.08938,
+      "val_worst_score": 0.65975,
+      "val_by_source": {
+        "s0": {
+          "source_id": 0,
+          "is_main": true,
+          "val_score": 1.2560645102213122,
+          "auxiliary": {
+            "mortality_auroc": 0.8071500701602787,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 6.918053150177002,
+            "next_mv_auroc": 0.9554793230402083,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "physionet2019": {
+          "source_id": 1,
+          "is_main": false,
+          "val_score": 1.7286170549471347,
+          "auxiliary": {
+            "mortality_auroc": 0.8411648458436032,
+            "sepsis_auroc": 0.8439612833542043,
+            "sepsis_coverage": 1.0,
+            "remaining_los_mae_hours": 3.612053632736206,
+            "next_mv_auroc": 0.9610435817923272,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "mimiciv": {
+          "source_id": 2,
+          "is_main": false,
+          "val_score": 0.6597529891381837,
+          "auxiliary": {
+            "mortality_auroc": 0.8479129794488526,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 45.15839767456055,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "eicu": {
+          "source_id": 3,
+          "is_main": false,
+          "val_score": 0.7130754214796071,
+          "auxiliary": {
+            "mortality_auroc": 0.8377957246971771,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 29.932872772216797,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": 0.9929718345696483,
+            "next_rrt_coverage": 0.8
+          }
+        }
+      },
+      "balanced_steps_per_epoch": 160,
+      "n_sources": 4,
+      "domain_invariance": "none",
+      "lambda_domain": 0.1,
+      "lambda_phenotype": 0.75,
+      "lambda_phenotype_contrastive": 0.1,
+      "phenotype_contrastive_temperature": 0.2,
+      "source_objective": "group_dro",
+      "group_dro_eta": 0.005
+    },
+    {
+      "stage": "source_balanced_aux",
+      "epoch": 3,
+      "time_s": 297.09,
+      "train_loss": 1.17195,
+      "train_auxiliary_loss": 0.54431,
+      "train_domain_loss": 0.0,
+      "train_phenotype_loss": 0.62764,
+      "train_phenotype_ce_loss": 0.13242,
+      "train_phenotype_contrastive_loss": 5.28326,
+      "train_phenotype_accuracy": 0.94695,
+      "train_source_accuracy": null,
+      "train_coral_loss": null,
+      "train_source_losses": {
+        "s0": 0.6492,
+        "physionet2019": 0.65298,
+        "mimiciv": 0.34079,
+        "eicu": 0.32071
+      },
+      "group_dro_weights": {
+        "s0": 0.32619,
+        "physionet2019": 0.3683,
+        "mimiciv": 0.15095,
+        "eicu": 0.15457
+      },
+      "val_score": 0.67226,
+      "val_avg_score": 1.10441,
+      "val_worst_score": 0.67226,
+      "val_by_source": {
+        "s0": {
+          "source_id": 0,
+          "is_main": true,
+          "val_score": 1.2747286367580704,
+          "auxiliary": {
+            "mortality_auroc": 0.8205020456504304,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 6.401515960693359,
+            "next_mv_auroc": 0.9617991485543909,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "physionet2019": {
+          "source_id": 1,
+          "is_main": false,
+          "val_score": 1.7511131951411334,
+          "auxiliary": {
+            "mortality_auroc": 0.8538591992030686,
+            "sepsis_auroc": 0.8590423145708757,
+            "sepsis_coverage": 1.0,
+            "remaining_los_mae_hours": 3.373443841934204,
+            "next_mv_auroc": 0.9635777093213723,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "mimiciv": {
+          "source_id": 2,
+          "is_main": false,
+          "val_score": 0.6722635702583649,
+          "auxiliary": {
+            "mortality_auroc": 0.8582633134020824,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 44.63993835449219,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "eicu": {
+          "source_id": 3,
+          "is_main": false,
+          "val_score": 0.7195341117575431,
+          "auxiliary": {
+            "mortality_auroc": 0.844224183499283,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 29.925617218017578,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": 0.9954487833715837,
+            "next_rrt_coverage": 0.8
+          }
+        }
+      },
+      "balanced_steps_per_epoch": 160,
+      "n_sources": 4,
+      "domain_invariance": "none",
+      "lambda_domain": 0.1,
+      "lambda_phenotype": 0.75,
+      "lambda_phenotype_contrastive": 0.1,
+      "phenotype_contrastive_temperature": 0.2,
+      "source_objective": "group_dro",
+      "group_dro_eta": 0.005
+    },
+    {
+      "stage": "source_balanced_aux",
+      "epoch": 4,
+      "time_s": 299.66,
+      "train_loss": 1.15393,
+      "train_auxiliary_loss": 0.5392,
+      "train_domain_loss": 0.0,
+      "train_phenotype_loss": 0.61473,
+      "train_phenotype_ce_loss": 0.12029,
+      "train_phenotype_contrastive_loss": 5.24516,
+      "train_phenotype_accuracy": 0.95259,
+      "train_source_accuracy": null,
+      "train_coral_loss": null,
+      "train_source_losses": {
+        "s0": 0.61777,
+        "physionet2019": 0.6312,
+        "mimiciv": 0.33507,
+        "eicu": 0.30327
+      },
+      "group_dro_weights": {
+        "s0": 0.34736,
+        "physionet2019": 0.39644,
+        "mimiciv": 0.12821,
+        "eicu": 0.12799
+      },
+      "val_score": 0.67631,
+      "val_avg_score": 1.11292,
+      "val_worst_score": 0.67631,
+      "val_by_source": {
+        "s0": {
+          "source_id": 0,
+          "is_main": true,
+          "val_score": 1.2865187535969251,
+          "auxiliary": {
+            "mortality_auroc": 0.8285973740376364,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 5.790072917938232,
+            "next_mv_auroc": 0.9640933667680626,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "physionet2019": {
+          "source_id": 1,
+          "is_main": false,
+          "val_score": 1.7676354782345185,
+          "auxiliary": {
+            "mortality_auroc": 0.8636254619987915,
+            "sepsis_auroc": 0.8685712680537354,
+            "sepsis_coverage": 1.0,
+            "remaining_los_mae_hours": 3.133249044418335,
+            "next_mv_auroc": 0.9655591731212047,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "mimiciv": {
+          "source_id": 2,
+          "is_main": false,
+          "val_score": 0.6763051764654,
+          "auxiliary": {
+            "mortality_auroc": 0.8629828866806506,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 44.802650451660156,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "eicu": {
+          "source_id": 3,
+          "is_main": false,
+          "val_score": 0.7212351507413783,
+          "auxiliary": {
+            "mortality_auroc": 0.8477726962634324,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 30.36901092529297,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": 0.9954007867377763,
+            "next_rrt_coverage": 0.8
+          }
+        }
+      },
+      "balanced_steps_per_epoch": 160,
+      "n_sources": 4,
+      "domain_invariance": "none",
+      "lambda_domain": 0.1,
+      "lambda_phenotype": 0.75,
+      "lambda_phenotype_contrastive": 0.1,
+      "phenotype_contrastive_temperature": 0.2,
+      "source_objective": "group_dro",
+      "group_dro_eta": 0.005
+    },
+    {
+      "stage": "source_balanced_aux",
+      "epoch": 5,
+      "time_s": 298.28,
+      "train_loss": 1.1372,
+      "train_auxiliary_loss": 0.53371,
+      "train_domain_loss": 0.0,
+      "train_phenotype_loss": 0.60349,
+      "train_phenotype_ce_loss": 0.10861,
+      "train_phenotype_contrastive_loss": 5.22027,
+      "train_phenotype_accuracy": 0.95639,
+      "train_source_accuracy": null,
+      "train_coral_loss": null,
+      "train_source_losses": {
+        "s0": 0.58356,
+        "physionet2019": 0.61257,
+        "mimiciv": 0.33679,
+        "eicu": 0.30631
+      },
+      "group_dro_weights": {
+        "s0": 0.3615,
+        "physionet2019": 0.42227,
+        "mimiciv": 0.10952,
+        "eicu": 0.1067
+      },
+      "val_score": 0.67774,
+      "val_avg_score": 1.11979,
+      "val_worst_score": 0.67774,
+      "val_by_source": {
+        "s0": {
+          "source_id": 0,
+          "is_main": true,
+          "val_score": 1.295240112187998,
+          "auxiliary": {
+            "mortality_auroc": 0.8325858529453554,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 4.888792991638184,
+            "next_mv_auroc": 0.9660484600822697,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "physionet2019": {
+          "source_id": 1,
+          "is_main": false,
+          "val_score": 1.7839237861556088,
+          "auxiliary": {
+            "mortality_auroc": 0.8737784092369957,
+            "sepsis_auroc": 0.8785260821845045,
+            "sepsis_coverage": 1.0,
+            "remaining_los_mae_hours": 2.9792327880859375,
+            "next_mv_auroc": 0.966591611553438,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "mimiciv": {
+          "source_id": 2,
+          "is_main": false,
+          "val_score": 0.6777351369004934,
+          "auxiliary": {
+            "mortality_auroc": 0.8669051954688121,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 45.400814056396484,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "eicu": {
+          "source_id": 3,
+          "is_main": false,
+          "val_score": 0.7222478045454882,
+          "auxiliary": {
+            "mortality_auroc": 0.8481091870299242,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 30.20673179626465,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": 0.9949767145640838,
+            "next_rrt_coverage": 0.8
+          }
+        }
+      },
+      "balanced_steps_per_epoch": 160,
+      "n_sources": 4,
+      "domain_invariance": "none",
+      "lambda_domain": 0.1,
+      "lambda_phenotype": 0.75,
+      "lambda_phenotype_contrastive": 0.1,
+      "phenotype_contrastive_temperature": 0.2,
+      "source_objective": "group_dro",
+      "group_dro_eta": 0.005
+    },
+    {
+      "stage": "source_balanced_aux",
+      "epoch": 6,
+      "time_s": 297.84,
+      "train_loss": 1.12029,
+      "train_auxiliary_loss": 0.52376,
+      "train_domain_loss": 0.0,
+      "train_phenotype_loss": 0.59653,
+      "train_phenotype_ce_loss": 0.10163,
+      "train_phenotype_contrastive_loss": 5.20307,
+      "train_phenotype_accuracy": 0.95935,
+      "train_source_accuracy": null,
+      "train_coral_loss": null,
+      "train_source_losses": {
+        "s0": 0.54513,
+        "physionet2019": 0.59926,
+        "mimiciv": 0.33518,
+        "eicu": 0.3039
+      },
+      "group_dro_weights": {
+        "s0": 0.36775,
+        "physionet2019": 0.44857,
+        "mimiciv": 0.09419,
+        "eicu": 0.08949
+      },
+      "val_score": 0.67936,
+      "val_avg_score": 1.12524,
+      "val_worst_score": 0.67936,
+      "val_by_source": {
+        "s0": {
+          "source_id": 0,
+          "is_main": true,
+          "val_score": 1.3049451004552852,
+          "auxiliary": {
+            "mortality_auroc": 0.8392317197295627,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 4.279637813568115,
+            "next_mv_auroc": 0.967090409897846,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "physionet2019": {
+          "source_id": 1,
+          "is_main": false,
+          "val_score": 1.793362606705726,
+          "auxiliary": {
+            "mortality_auroc": 0.8787522969922528,
+            "sepsis_auroc": 0.8851422699641455,
+            "sepsis_coverage": 1.0,
+            "remaining_los_mae_hours": 2.773660182952881,
+            "next_mv_auroc": 0.9671921843207416,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "mimiciv": {
+          "source_id": 2,
+          "is_main": false,
+          "val_score": 0.6793603657653593,
+          "auxiliary": {
+            "mortality_auroc": 0.8682086387247505,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 45.323585510253906,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "eicu": {
+          "source_id": 3,
+          "is_main": false,
+          "val_score": 0.7233093983674457,
+          "auxiliary": {
+            "mortality_auroc": 0.8500025358542214,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 30.406352996826172,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": 0.995126170120994,
+            "next_rrt_coverage": 0.8
+          }
+        }
+      },
+      "balanced_steps_per_epoch": 160,
+      "n_sources": 4,
+      "domain_invariance": "none",
+      "lambda_domain": 0.1,
+      "lambda_phenotype": 0.75,
+      "lambda_phenotype_contrastive": 0.1,
+      "phenotype_contrastive_temperature": 0.2,
+      "source_objective": "group_dro",
+      "group_dro_eta": 0.005
+    },
+    {
+      "stage": "source_balanced_aux",
+      "epoch": 7,
+      "time_s": 296.77,
+      "train_loss": 1.10379,
+      "train_auxiliary_loss": 0.51041,
+      "train_domain_loss": 0.0,
+      "train_phenotype_loss": 0.59338,
+      "train_phenotype_ce_loss": 0.09903,
+      "train_phenotype_contrastive_loss": 5.19108,
+      "train_phenotype_accuracy": 0.96026,
+      "train_source_accuracy": null,
+      "train_coral_loss": null,
+      "train_source_losses": {
+        "s0": 0.5096,
+        "physionet2019": 0.58195,
+        "mimiciv": 0.33552,
+        "eicu": 0.29932
+      },
+      "group_dro_weights": {
+        "s0": 0.36752,
+        "physionet2019": 0.475,
+        "mimiciv": 0.08189,
+        "eicu": 0.07559
+      },
+      "val_score": 0.68196,
+      "val_avg_score": 1.13024,
+      "val_worst_score": 0.68196,
+      "val_by_source": {
+        "s0": {
+          "source_id": 0,
+          "is_main": true,
+          "val_score": 1.3150485079291891,
+          "auxiliary": {
+            "mortality_auroc": 0.8457969596129726,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 3.5321855545043945,
+            "next_mv_auroc": 0.9679379762533031,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "physionet2019": {
+          "source_id": 1,
+          "is_main": false,
+          "val_score": 1.7991271889467606,
+          "auxiliary": {
+            "mortality_auroc": 0.8829306684074343,
+            "sepsis_auroc": 0.8873579491882491,
+            "sepsis_coverage": 1.0,
+            "remaining_los_mae_hours": 2.691983461380005,
+            "next_mv_auroc": 0.9674682874019037,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "mimiciv": {
+          "source_id": 2,
+          "is_main": false,
+          "val_score": 0.6819613235063301,
+          "auxiliary": {
+            "mortality_auroc": 0.8680407620337552,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 44.65906524658203,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "eicu": {
+          "source_id": 3,
+          "is_main": false,
+          "val_score": 0.7248335944499242,
+          "auxiliary": {
+            "mortality_auroc": 0.8486907826747168,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 29.725725173950195,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": 0.995029195395444,
+            "next_rrt_coverage": 0.8
+          }
+        }
+      },
+      "balanced_steps_per_epoch": 160,
+      "n_sources": 4,
+      "domain_invariance": "none",
+      "lambda_domain": 0.1,
+      "lambda_phenotype": 0.75,
+      "lambda_phenotype_contrastive": 0.1,
+      "phenotype_contrastive_temperature": 0.2,
+      "source_objective": "group_dro",
+      "group_dro_eta": 0.005
+    },
+    {
+      "stage": "source_balanced_aux",
+      "epoch": 8,
+      "time_s": 297.06,
+      "train_loss": 1.08884,
+      "train_auxiliary_loss": 0.50162,
+      "train_domain_loss": 0.0,
+      "train_phenotype_loss": 0.58723,
+      "train_phenotype_ce_loss": 0.09222,
+      "train_phenotype_contrastive_loss": 5.18064,
+      "train_phenotype_accuracy": 0.96331,
+      "train_source_accuracy": null,
+      "train_coral_loss": null,
+      "train_source_losses": {
+        "s0": 0.48743,
+        "physionet2019": 0.56779,
+        "mimiciv": 0.33215,
+        "eicu": 0.29906
+      },
+      "group_dro_weights": {
+        "s0": 0.36338,
+        "physionet2019": 0.50083,
+        "mimiciv": 0.07151,
+        "eicu": 0.06428
+      },
+      "val_score": 0.68253,
+      "val_avg_score": 1.13314,
+      "val_worst_score": 0.68253,
+      "val_by_source": {
+        "s0": {
+          "source_id": 0,
+          "is_main": true,
+          "val_score": 1.3203868573607924,
+          "auxiliary": {
+            "mortality_auroc": 0.8484669929243582,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 2.9549930095672607,
+            "next_mv_auroc": 0.9684646706192623,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "physionet2019": {
+          "source_id": 1,
+          "is_main": false,
+          "val_score": 1.8041047201296183,
+          "auxiliary": {
+            "mortality_auroc": 0.8842827648082117,
+            "sepsis_auroc": 0.8936789313458341,
+            "sepsis_coverage": 1.0,
+            "remaining_los_mae_hours": 2.6609418392181396,
+            "next_mv_auroc": 0.9681394946237969,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "mimiciv": {
+          "source_id": 2,
+          "is_main": false,
+          "val_score": 0.682532135944722,
+          "auxiliary": {
+            "mortality_auroc": 0.8677351159862259,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 44.44871520996094,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "eicu": {
+          "source_id": 3,
+          "is_main": false,
+          "val_score": 0.7255349661687521,
+          "auxiliary": {
+            "mortality_auroc": 0.8485699917653707,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 29.528406143188477,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": 0.9949764643977361,
+            "next_rrt_coverage": 0.8
+          }
+        }
+      },
+      "balanced_steps_per_epoch": 160,
+      "n_sources": 4,
+      "domain_invariance": "none",
+      "lambda_domain": 0.1,
+      "lambda_phenotype": 0.75,
+      "lambda_phenotype_contrastive": 0.1,
+      "phenotype_contrastive_temperature": 0.2,
+      "source_objective": "group_dro",
+      "group_dro_eta": 0.005
+    }
+  ],
+  "history": [],
+  "combined_history": [
+    {
+      "stage": "source_balanced_aux",
+      "epoch": 1,
+      "time_s": 304.16,
+      "train_loss": 1.63526,
+      "train_auxiliary_loss": 0.74313,
+      "train_domain_loss": 0.0,
+      "train_phenotype_loss": 0.89212,
+      "train_phenotype_ce_loss": 0.4329,
+      "train_phenotype_contrastive_loss": 5.67449,
+      "train_phenotype_accuracy": 0.82882,
+      "train_source_accuracy": null,
+      "train_coral_loss": null,
+      "train_source_losses": {
+        "s0": 0.83796,
+        "physionet2019": 0.98912,
+        "mimiciv": 0.51355,
+        "eicu": 0.57065
+      },
+      "group_dro_weights": {
+        "s0": 0.26973,
+        "physionet2019": 0.3044,
+        "mimiciv": 0.20807,
+        "eicu": 0.2178
+      },
+      "val_score": 0.62993,
+      "val_avg_score": 1.05442,
+      "val_worst_score": 0.62993,
+      "val_by_source": {
+        "s0": {
+          "source_id": 0,
+          "is_main": true,
+          "val_score": 1.2223773365446347,
+          "auxiliary": {
+            "mortality_auroc": 0.7876859840103753,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 7.129441261291504,
+            "next_mv_auroc": 0.9287947155792813,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "physionet2019": {
+          "source_id": 1,
+          "is_main": false,
+          "val_score": 1.6942033327895363,
+          "auxiliary": {
+            "mortality_auroc": 0.8275096680094944,
+            "sepsis_auroc": 0.8149200954567394,
+            "sepsis_coverage": 1.0,
+            "remaining_los_mae_hours": 3.7243597507476807,
+            "next_mv_auroc": 0.9495035653595749,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "mimiciv": {
+          "source_id": 2,
+          "is_main": false,
+          "val_score": 0.629929580312356,
+          "auxiliary": {
+            "mortality_auroc": 0.8220517059379664,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 46.109310150146484,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "eicu": {
+          "source_id": 3,
+          "is_main": false,
+          "val_score": 0.671152492977454,
+          "auxiliary": {
+            "mortality_auroc": 0.7966148740224777,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 30.110971450805664,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": 0.9578411438688169,
+            "next_rrt_coverage": 0.8
+          }
+        }
+      },
+      "balanced_steps_per_epoch": 160,
+      "n_sources": 4,
+      "domain_invariance": "none",
+      "lambda_domain": 0.1,
+      "lambda_phenotype": 0.75,
+      "lambda_phenotype_contrastive": 0.1,
+      "phenotype_contrastive_temperature": 0.2,
+      "source_objective": "group_dro",
+      "group_dro_eta": 0.005
+    },
+    {
+      "stage": "source_balanced_aux",
+      "epoch": 2,
+      "time_s": 297.76,
+      "train_loss": 1.21715,
+      "train_auxiliary_loss": 0.55824,
+      "train_domain_loss": 0.0,
+      "train_phenotype_loss": 0.65891,
+      "train_phenotype_ce_loss": 0.1646,
+      "train_phenotype_contrastive_loss": 5.35463,
+      "train_phenotype_accuracy": 0.93414,
+      "train_source_accuracy": null,
+      "train_coral_loss": null,
+      "train_source_losses": {
+        "s0": 0.69079,
+        "physionet2019": 0.68762,
+        "mimiciv": 0.36041,
+        "eicu": 0.35306
+      },
+      "group_dro_weights": {
+        "s0": 0.29992,
+        "physionet2019": 0.33762,
+        "mimiciv": 0.17763,
+        "eicu": 0.18484
+      },
+      "val_score": 0.65975,
+      "val_avg_score": 1.08938,
+      "val_worst_score": 0.65975,
+      "val_by_source": {
+        "s0": {
+          "source_id": 0,
+          "is_main": true,
+          "val_score": 1.2560645102213122,
+          "auxiliary": {
+            "mortality_auroc": 0.8071500701602787,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 6.918053150177002,
+            "next_mv_auroc": 0.9554793230402083,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "physionet2019": {
+          "source_id": 1,
+          "is_main": false,
+          "val_score": 1.7286170549471347,
+          "auxiliary": {
+            "mortality_auroc": 0.8411648458436032,
+            "sepsis_auroc": 0.8439612833542043,
+            "sepsis_coverage": 1.0,
+            "remaining_los_mae_hours": 3.612053632736206,
+            "next_mv_auroc": 0.9610435817923272,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "mimiciv": {
+          "source_id": 2,
+          "is_main": false,
+          "val_score": 0.6597529891381837,
+          "auxiliary": {
+            "mortality_auroc": 0.8479129794488526,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 45.15839767456055,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "eicu": {
+          "source_id": 3,
+          "is_main": false,
+          "val_score": 0.7130754214796071,
+          "auxiliary": {
+            "mortality_auroc": 0.8377957246971771,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 29.932872772216797,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": 0.9929718345696483,
+            "next_rrt_coverage": 0.8
+          }
+        }
+      },
+      "balanced_steps_per_epoch": 160,
+      "n_sources": 4,
+      "domain_invariance": "none",
+      "lambda_domain": 0.1,
+      "lambda_phenotype": 0.75,
+      "lambda_phenotype_contrastive": 0.1,
+      "phenotype_contrastive_temperature": 0.2,
+      "source_objective": "group_dro",
+      "group_dro_eta": 0.005
+    },
+    {
+      "stage": "source_balanced_aux",
+      "epoch": 3,
+      "time_s": 297.09,
+      "train_loss": 1.17195,
+      "train_auxiliary_loss": 0.54431,
+      "train_domain_loss": 0.0,
+      "train_phenotype_loss": 0.62764,
+      "train_phenotype_ce_loss": 0.13242,
+      "train_phenotype_contrastive_loss": 5.28326,
+      "train_phenotype_accuracy": 0.94695,
+      "train_source_accuracy": null,
+      "train_coral_loss": null,
+      "train_source_losses": {
+        "s0": 0.6492,
+        "physionet2019": 0.65298,
+        "mimiciv": 0.34079,
+        "eicu": 0.32071
+      },
+      "group_dro_weights": {
+        "s0": 0.32619,
+        "physionet2019": 0.3683,
+        "mimiciv": 0.15095,
+        "eicu": 0.15457
+      },
+      "val_score": 0.67226,
+      "val_avg_score": 1.10441,
+      "val_worst_score": 0.67226,
+      "val_by_source": {
+        "s0": {
+          "source_id": 0,
+          "is_main": true,
+          "val_score": 1.2747286367580704,
+          "auxiliary": {
+            "mortality_auroc": 0.8205020456504304,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 6.401515960693359,
+            "next_mv_auroc": 0.9617991485543909,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "physionet2019": {
+          "source_id": 1,
+          "is_main": false,
+          "val_score": 1.7511131951411334,
+          "auxiliary": {
+            "mortality_auroc": 0.8538591992030686,
+            "sepsis_auroc": 0.8590423145708757,
+            "sepsis_coverage": 1.0,
+            "remaining_los_mae_hours": 3.373443841934204,
+            "next_mv_auroc": 0.9635777093213723,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "mimiciv": {
+          "source_id": 2,
+          "is_main": false,
+          "val_score": 0.6722635702583649,
+          "auxiliary": {
+            "mortality_auroc": 0.8582633134020824,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 44.63993835449219,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "eicu": {
+          "source_id": 3,
+          "is_main": false,
+          "val_score": 0.7195341117575431,
+          "auxiliary": {
+            "mortality_auroc": 0.844224183499283,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 29.925617218017578,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": 0.9954487833715837,
+            "next_rrt_coverage": 0.8
+          }
+        }
+      },
+      "balanced_steps_per_epoch": 160,
+      "n_sources": 4,
+      "domain_invariance": "none",
+      "lambda_domain": 0.1,
+      "lambda_phenotype": 0.75,
+      "lambda_phenotype_contrastive": 0.1,
+      "phenotype_contrastive_temperature": 0.2,
+      "source_objective": "group_dro",
+      "group_dro_eta": 0.005
+    },
+    {
+      "stage": "source_balanced_aux",
+      "epoch": 4,
+      "time_s": 299.66,
+      "train_loss": 1.15393,
+      "train_auxiliary_loss": 0.5392,
+      "train_domain_loss": 0.0,
+      "train_phenotype_loss": 0.61473,
+      "train_phenotype_ce_loss": 0.12029,
+      "train_phenotype_contrastive_loss": 5.24516,
+      "train_phenotype_accuracy": 0.95259,
+      "train_source_accuracy": null,
+      "train_coral_loss": null,
+      "train_source_losses": {
+        "s0": 0.61777,
+        "physionet2019": 0.6312,
+        "mimiciv": 0.33507,
+        "eicu": 0.30327
+      },
+      "group_dro_weights": {
+        "s0": 0.34736,
+        "physionet2019": 0.39644,
+        "mimiciv": 0.12821,
+        "eicu": 0.12799
+      },
+      "val_score": 0.67631,
+      "val_avg_score": 1.11292,
+      "val_worst_score": 0.67631,
+      "val_by_source": {
+        "s0": {
+          "source_id": 0,
+          "is_main": true,
+          "val_score": 1.2865187535969251,
+          "auxiliary": {
+            "mortality_auroc": 0.8285973740376364,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 5.790072917938232,
+            "next_mv_auroc": 0.9640933667680626,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "physionet2019": {
+          "source_id": 1,
+          "is_main": false,
+          "val_score": 1.7676354782345185,
+          "auxiliary": {
+            "mortality_auroc": 0.8636254619987915,
+            "sepsis_auroc": 0.8685712680537354,
+            "sepsis_coverage": 1.0,
+            "remaining_los_mae_hours": 3.133249044418335,
+            "next_mv_auroc": 0.9655591731212047,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "mimiciv": {
+          "source_id": 2,
+          "is_main": false,
+          "val_score": 0.6763051764654,
+          "auxiliary": {
+            "mortality_auroc": 0.8629828866806506,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 44.802650451660156,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "eicu": {
+          "source_id": 3,
+          "is_main": false,
+          "val_score": 0.7212351507413783,
+          "auxiliary": {
+            "mortality_auroc": 0.8477726962634324,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 30.36901092529297,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": 0.9954007867377763,
+            "next_rrt_coverage": 0.8
+          }
+        }
+      },
+      "balanced_steps_per_epoch": 160,
+      "n_sources": 4,
+      "domain_invariance": "none",
+      "lambda_domain": 0.1,
+      "lambda_phenotype": 0.75,
+      "lambda_phenotype_contrastive": 0.1,
+      "phenotype_contrastive_temperature": 0.2,
+      "source_objective": "group_dro",
+      "group_dro_eta": 0.005
+    },
+    {
+      "stage": "source_balanced_aux",
+      "epoch": 5,
+      "time_s": 298.28,
+      "train_loss": 1.1372,
+      "train_auxiliary_loss": 0.53371,
+      "train_domain_loss": 0.0,
+      "train_phenotype_loss": 0.60349,
+      "train_phenotype_ce_loss": 0.10861,
+      "train_phenotype_contrastive_loss": 5.22027,
+      "train_phenotype_accuracy": 0.95639,
+      "train_source_accuracy": null,
+      "train_coral_loss": null,
+      "train_source_losses": {
+        "s0": 0.58356,
+        "physionet2019": 0.61257,
+        "mimiciv": 0.33679,
+        "eicu": 0.30631
+      },
+      "group_dro_weights": {
+        "s0": 0.3615,
+        "physionet2019": 0.42227,
+        "mimiciv": 0.10952,
+        "eicu": 0.1067
+      },
+      "val_score": 0.67774,
+      "val_avg_score": 1.11979,
+      "val_worst_score": 0.67774,
+      "val_by_source": {
+        "s0": {
+          "source_id": 0,
+          "is_main": true,
+          "val_score": 1.295240112187998,
+          "auxiliary": {
+            "mortality_auroc": 0.8325858529453554,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 4.888792991638184,
+            "next_mv_auroc": 0.9660484600822697,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "physionet2019": {
+          "source_id": 1,
+          "is_main": false,
+          "val_score": 1.7839237861556088,
+          "auxiliary": {
+            "mortality_auroc": 0.8737784092369957,
+            "sepsis_auroc": 0.8785260821845045,
+            "sepsis_coverage": 1.0,
+            "remaining_los_mae_hours": 2.9792327880859375,
+            "next_mv_auroc": 0.966591611553438,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "mimiciv": {
+          "source_id": 2,
+          "is_main": false,
+          "val_score": 0.6777351369004934,
+          "auxiliary": {
+            "mortality_auroc": 0.8669051954688121,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 45.400814056396484,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "eicu": {
+          "source_id": 3,
+          "is_main": false,
+          "val_score": 0.7222478045454882,
+          "auxiliary": {
+            "mortality_auroc": 0.8481091870299242,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 30.20673179626465,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": 0.9949767145640838,
+            "next_rrt_coverage": 0.8
+          }
+        }
+      },
+      "balanced_steps_per_epoch": 160,
+      "n_sources": 4,
+      "domain_invariance": "none",
+      "lambda_domain": 0.1,
+      "lambda_phenotype": 0.75,
+      "lambda_phenotype_contrastive": 0.1,
+      "phenotype_contrastive_temperature": 0.2,
+      "source_objective": "group_dro",
+      "group_dro_eta": 0.005
+    },
+    {
+      "stage": "source_balanced_aux",
+      "epoch": 6,
+      "time_s": 297.84,
+      "train_loss": 1.12029,
+      "train_auxiliary_loss": 0.52376,
+      "train_domain_loss": 0.0,
+      "train_phenotype_loss": 0.59653,
+      "train_phenotype_ce_loss": 0.10163,
+      "train_phenotype_contrastive_loss": 5.20307,
+      "train_phenotype_accuracy": 0.95935,
+      "train_source_accuracy": null,
+      "train_coral_loss": null,
+      "train_source_losses": {
+        "s0": 0.54513,
+        "physionet2019": 0.59926,
+        "mimiciv": 0.33518,
+        "eicu": 0.3039
+      },
+      "group_dro_weights": {
+        "s0": 0.36775,
+        "physionet2019": 0.44857,
+        "mimiciv": 0.09419,
+        "eicu": 0.08949
+      },
+      "val_score": 0.67936,
+      "val_avg_score": 1.12524,
+      "val_worst_score": 0.67936,
+      "val_by_source": {
+        "s0": {
+          "source_id": 0,
+          "is_main": true,
+          "val_score": 1.3049451004552852,
+          "auxiliary": {
+            "mortality_auroc": 0.8392317197295627,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 4.279637813568115,
+            "next_mv_auroc": 0.967090409897846,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "physionet2019": {
+          "source_id": 1,
+          "is_main": false,
+          "val_score": 1.793362606705726,
+          "auxiliary": {
+            "mortality_auroc": 0.8787522969922528,
+            "sepsis_auroc": 0.8851422699641455,
+            "sepsis_coverage": 1.0,
+            "remaining_los_mae_hours": 2.773660182952881,
+            "next_mv_auroc": 0.9671921843207416,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "mimiciv": {
+          "source_id": 2,
+          "is_main": false,
+          "val_score": 0.6793603657653593,
+          "auxiliary": {
+            "mortality_auroc": 0.8682086387247505,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 45.323585510253906,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "eicu": {
+          "source_id": 3,
+          "is_main": false,
+          "val_score": 0.7233093983674457,
+          "auxiliary": {
+            "mortality_auroc": 0.8500025358542214,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 30.406352996826172,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": 0.995126170120994,
+            "next_rrt_coverage": 0.8
+          }
+        }
+      },
+      "balanced_steps_per_epoch": 160,
+      "n_sources": 4,
+      "domain_invariance": "none",
+      "lambda_domain": 0.1,
+      "lambda_phenotype": 0.75,
+      "lambda_phenotype_contrastive": 0.1,
+      "phenotype_contrastive_temperature": 0.2,
+      "source_objective": "group_dro",
+      "group_dro_eta": 0.005
+    },
+    {
+      "stage": "source_balanced_aux",
+      "epoch": 7,
+      "time_s": 296.77,
+      "train_loss": 1.10379,
+      "train_auxiliary_loss": 0.51041,
+      "train_domain_loss": 0.0,
+      "train_phenotype_loss": 0.59338,
+      "train_phenotype_ce_loss": 0.09903,
+      "train_phenotype_contrastive_loss": 5.19108,
+      "train_phenotype_accuracy": 0.96026,
+      "train_source_accuracy": null,
+      "train_coral_loss": null,
+      "train_source_losses": {
+        "s0": 0.5096,
+        "physionet2019": 0.58195,
+        "mimiciv": 0.33552,
+        "eicu": 0.29932
+      },
+      "group_dro_weights": {
+        "s0": 0.36752,
+        "physionet2019": 0.475,
+        "mimiciv": 0.08189,
+        "eicu": 0.07559
+      },
+      "val_score": 0.68196,
+      "val_avg_score": 1.13024,
+      "val_worst_score": 0.68196,
+      "val_by_source": {
+        "s0": {
+          "source_id": 0,
+          "is_main": true,
+          "val_score": 1.3150485079291891,
+          "auxiliary": {
+            "mortality_auroc": 0.8457969596129726,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 3.5321855545043945,
+            "next_mv_auroc": 0.9679379762533031,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "physionet2019": {
+          "source_id": 1,
+          "is_main": false,
+          "val_score": 1.7991271889467606,
+          "auxiliary": {
+            "mortality_auroc": 0.8829306684074343,
+            "sepsis_auroc": 0.8873579491882491,
+            "sepsis_coverage": 1.0,
+            "remaining_los_mae_hours": 2.691983461380005,
+            "next_mv_auroc": 0.9674682874019037,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "mimiciv": {
+          "source_id": 2,
+          "is_main": false,
+          "val_score": 0.6819613235063301,
+          "auxiliary": {
+            "mortality_auroc": 0.8680407620337552,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 44.65906524658203,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "eicu": {
+          "source_id": 3,
+          "is_main": false,
+          "val_score": 0.7248335944499242,
+          "auxiliary": {
+            "mortality_auroc": 0.8486907826747168,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 29.725725173950195,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": 0.995029195395444,
+            "next_rrt_coverage": 0.8
+          }
+        }
+      },
+      "balanced_steps_per_epoch": 160,
+      "n_sources": 4,
+      "domain_invariance": "none",
+      "lambda_domain": 0.1,
+      "lambda_phenotype": 0.75,
+      "lambda_phenotype_contrastive": 0.1,
+      "phenotype_contrastive_temperature": 0.2,
+      "source_objective": "group_dro",
+      "group_dro_eta": 0.005
+    },
+    {
+      "stage": "source_balanced_aux",
+      "epoch": 8,
+      "time_s": 297.06,
+      "train_loss": 1.08884,
+      "train_auxiliary_loss": 0.50162,
+      "train_domain_loss": 0.0,
+      "train_phenotype_loss": 0.58723,
+      "train_phenotype_ce_loss": 0.09222,
+      "train_phenotype_contrastive_loss": 5.18064,
+      "train_phenotype_accuracy": 0.96331,
+      "train_source_accuracy": null,
+      "train_coral_loss": null,
+      "train_source_losses": {
+        "s0": 0.48743,
+        "physionet2019": 0.56779,
+        "mimiciv": 0.33215,
+        "eicu": 0.29906
+      },
+      "group_dro_weights": {
+        "s0": 0.36338,
+        "physionet2019": 0.50083,
+        "mimiciv": 0.07151,
+        "eicu": 0.06428
+      },
+      "val_score": 0.68253,
+      "val_avg_score": 1.13314,
+      "val_worst_score": 0.68253,
+      "val_by_source": {
+        "s0": {
+          "source_id": 0,
+          "is_main": true,
+          "val_score": 1.3203868573607924,
+          "auxiliary": {
+            "mortality_auroc": 0.8484669929243582,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 2.9549930095672607,
+            "next_mv_auroc": 0.9684646706192623,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "physionet2019": {
+          "source_id": 1,
+          "is_main": false,
+          "val_score": 1.8041047201296183,
+          "auxiliary": {
+            "mortality_auroc": 0.8842827648082117,
+            "sepsis_auroc": 0.8936789313458341,
+            "sepsis_coverage": 1.0,
+            "remaining_los_mae_hours": 2.6609418392181396,
+            "next_mv_auroc": 0.9681394946237969,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "mimiciv": {
+          "source_id": 2,
+          "is_main": false,
+          "val_score": 0.682532135944722,
+          "auxiliary": {
+            "mortality_auroc": 0.8677351159862259,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 44.44871520996094,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": null,
+            "next_rrt_coverage": 0.0
+          }
+        },
+        "eicu": {
+          "source_id": 3,
+          "is_main": false,
+          "val_score": 0.7255349661687521,
+          "auxiliary": {
+            "mortality_auroc": 0.8485699917653707,
+            "sepsis_auroc": null,
+            "sepsis_coverage": 0.0,
+            "remaining_los_mae_hours": 29.528406143188477,
+            "next_mv_auroc": null,
+            "next_mv_coverage": 0.8,
+            "next_rrt_auroc": 0.9949764643977361,
+            "next_rrt_coverage": 0.8
+          }
+        }
+      },
+      "balanced_steps_per_epoch": 160,
+      "n_sources": 4,
+      "domain_invariance": "none",
+      "lambda_domain": 0.1,
+      "lambda_phenotype": 0.75,
+      "lambda_phenotype_contrastive": 0.1,
+      "phenotype_contrastive_temperature": 0.2,
+      "source_objective": "group_dro",
+      "group_dro_eta": 0.005
+    }
+  ],
+  "splits": {
+    "train": {
+      "raw_rule": {
+        "window_match_rate": 0.30185216085433003,
+        "mean_patient_match_rate": 0.30185216085433003,
+        "full_patient_match_rate": 0.1829634573669281,
+        "zero_match_patient_rate": 0.5665776739529451,
+        "macro_f1": 0.13955832793811762,
+        "per_window_match_rate": [
+          0.257383614216586,
+          0.27907558818621725,
+          0.3079425996996496,
+          0.3255464708826965,
+          0.3393125312865009
+        ]
+      },
+      "rule_plus_transition_smoothing": {
+        "window_match_rate": 0.3,
+        "mean_patient_match_rate": 0.3,
+        "full_patient_match_rate": 0.1903887869180711,
+        "zero_match_patient_rate": 0.5853495745035875,
+        "macro_f1": 0.13591845197289287,
+        "per_window_match_rate": [
+          0.2532120807608877,
+          0.2762389454363424,
+          0.30602369431002835,
+          0.3243784415151009,
+          0.34014683797764056
+        ]
+      },
+      "encoder_readout": {
+        "window_match_rate": 0.972234273318872,
+        "mean_patient_match_rate": 0.9722342733188721,
+        "full_patient_match_rate": 0.8783580844318372,
+        "zero_match_patient_rate": 0.0,
+        "macro_f1": 0.9709154883540718,
+        "per_window_match_rate": [
+          0.9736359085599866,
+          0.9738862005673286,
+          0.9708826964792258,
+          0.9730518938761888,
+          0.9697146671116302
+        ]
+      },
+      "encoder_plus_transition_smoothing": {
+        "window_match_rate": 0.9583347238444853,
+        "mean_patient_match_rate": 0.9583347238444853,
+        "full_patient_match_rate": 0.8317203403971299,
+        "zero_match_patient_rate": 0.0003337226764558652,
+        "macro_f1": 0.9562308594924265,
+        "per_window_match_rate": [
+          0.9464375104288336,
+          0.9697980977807442,
+          0.9627899215751711,
+          0.9657934256632739,
+          0.9468546637744034
+        ]
+      },
+      "auxiliary": {
+        "mortality_auroc": 0.8484669929243582,
+        "sepsis_auroc": null,
+        "sepsis_coverage": 0.0,
+        "remaining_los_mae_hours": 2.9549930095672607,
+        "next_mv_auroc": 0.9684646706192623,
+        "next_mv_coverage": 0.8,
+        "next_rrt_auroc": null,
+        "next_rrt_coverage": 0.0
+      },
+      "n_patients": 11986,
+      "n_windows": 5,
+      "n_samples": 59930
+    },
+    "val": {
+      "raw_rule": {
+        "window_match_rate": 0.30185216085433003,
+        "mean_patient_match_rate": 0.30185216085433003,
+        "full_patient_match_rate": 0.1829634573669281,
+        "zero_match_patient_rate": 0.5665776739529451,
+        "macro_f1": 0.13955832793811762,
+        "per_window_match_rate": [
+          0.257383614216586,
+          0.27907558818621725,
+          0.3079425996996496,
+          0.3255464708826965,
+          0.3393125312865009
+        ]
+      },
+      "rule_plus_transition_smoothing": {
+        "window_match_rate": 0.3,
+        "mean_patient_match_rate": 0.3,
+        "full_patient_match_rate": 0.1903887869180711,
+        "zero_match_patient_rate": 0.5853495745035875,
+        "macro_f1": 0.13591845197289287,
+        "per_window_match_rate": [
+          0.2532120807608877,
+          0.2762389454363424,
+          0.30602369431002835,
+          0.3243784415151009,
+          0.34014683797764056
+        ]
+      },
+      "encoder_readout": {
+        "window_match_rate": 0.972234273318872,
+        "mean_patient_match_rate": 0.9722342733188721,
+        "full_patient_match_rate": 0.8783580844318372,
+        "zero_match_patient_rate": 0.0,
+        "macro_f1": 0.9709154883540718,
+        "per_window_match_rate": [
+          0.9736359085599866,
+          0.9738862005673286,
+          0.9708826964792258,
+          0.9730518938761888,
+          0.9697146671116302
+        ]
+      },
+      "encoder_plus_transition_smoothing": {
+        "window_match_rate": 0.9583347238444853,
+        "mean_patient_match_rate": 0.9583347238444853,
+        "full_patient_match_rate": 0.8317203403971299,
+        "zero_match_patient_rate": 0.0003337226764558652,
+        "macro_f1": 0.9562308594924265,
+        "per_window_match_rate": [
+          0.9464375104288336,
+          0.9697980977807442,
+          0.9627899215751711,
+          0.9657934256632739,
+          0.9468546637744034
+        ]
+      },
+      "auxiliary": {
+        "mortality_auroc": 0.8484669929243582,
+        "sepsis_auroc": null,
+        "sepsis_coverage": 0.0,
+        "remaining_los_mae_hours": 2.9549930095672607,
+        "next_mv_auroc": 0.9684646706192623,
+        "next_mv_coverage": 0.8,
+        "next_rrt_auroc": null,
+        "next_rrt_coverage": 0.0
+      },
+      "n_patients": 11986,
+      "n_windows": 5,
+      "n_samples": 59930
+    },
+    "test": {
+      "raw_rule": {
+        "window_match_rate": 0.30185216085433003,
+        "mean_patient_match_rate": 0.30185216085433003,
+        "full_patient_match_rate": 0.1829634573669281,
+        "zero_match_patient_rate": 0.5665776739529451,
+        "macro_f1": 0.13955832793811762,
+        "per_window_match_rate": [
+          0.257383614216586,
+          0.27907558818621725,
+          0.3079425996996496,
+          0.3255464708826965,
+          0.3393125312865009
+        ]
+      },
+      "rule_plus_transition_smoothing": {
+        "window_match_rate": 0.3,
+        "mean_patient_match_rate": 0.3,
+        "full_patient_match_rate": 0.1903887869180711,
+        "zero_match_patient_rate": 0.5853495745035875,
+        "macro_f1": 0.13591845197289287,
+        "per_window_match_rate": [
+          0.2532120807608877,
+          0.2762389454363424,
+          0.30602369431002835,
+          0.3243784415151009,
+          0.34014683797764056
+        ]
+      },
+      "encoder_readout": {
+        "window_match_rate": 0.972234273318872,
+        "mean_patient_match_rate": 0.9722342733188721,
+        "full_patient_match_rate": 0.8783580844318372,
+        "zero_match_patient_rate": 0.0,
+        "macro_f1": 0.9709154883540718,
+        "per_window_match_rate": [
+          0.9736359085599866,
+          0.9738862005673286,
+          0.9708826964792258,
+          0.9730518938761888,
+          0.9697146671116302
+        ]
+      },
+      "encoder_plus_transition_smoothing": {
+        "window_match_rate": 0.9583347238444853,
+        "mean_patient_match_rate": 0.9583347238444853,
+        "full_patient_match_rate": 0.8317203403971299,
+        "zero_match_patient_rate": 0.0003337226764558652,
+        "macro_f1": 0.9562308594924265,
+        "per_window_match_rate": [
+          0.9464375104288336,
+          0.9697980977807442,
+          0.9627899215751711,
+          0.9657934256632739,
+          0.9468546637744034
+        ]
+      },
+      "auxiliary": {
+        "mortality_auroc": 0.8484669929243582,
+        "sepsis_auroc": null,
+        "sepsis_coverage": 0.0,
+        "remaining_los_mae_hours": 2.9549930095672607,
+        "next_mv_auroc": 0.9684646706192623,
+        "next_mv_coverage": 0.8,
+        "next_rrt_auroc": null,
+        "next_rrt_coverage": 0.0
+      },
+      "n_patients": 11986,
+      "n_windows": 5,
+      "n_samples": 59930
+    }
+  },
+  "existing_webapp_rule_export": {
+    "source": "/home/wangrk2026/sepsis_s7/data/s0/prediction_consistency_labels.csv",
+    "patients": 11986,
+    "mean_patient_match_rate": 0.3045386283997998,
+    "full_patient_match_rate": 0.18488236275654932,
+    "zero_match_patient_rate": 0.5632404471883865
+  },
+  "outputs": {
+    "report": "/home/wangrk2026/sepsis_s7/data/s7_phenotype_contrastive_full_20260516/trajectory_encoder_report.json",
+    "model": "/home/wangrk2026/sepsis_s7/data/s7_phenotype_contrastive_full_20260516/trajectory_encoder.pt",
+    "readout": "/home/wangrk2026/sepsis_s7/data/s7_phenotype_contrastive_full_20260516/phenotype_readout.pkl"
+  },
+  "s7": {
+    "stage": "s7_all_source_training",
+    "generated_at": "2026-05-16T22:20:14",
+    "intent": "Use every configured cohort as training data. Monitoring splits intentionally overlap train and must not be interpreted as held-out validation.",
+    "main_source": "physionet2012",
+    "sources": {
+      "physionet2012": {
+        "name": "physionet2012",
+        "role": "train",
+        "s0_dir": "/home/wangrk2026/sepsis_s7/data/s0",
+        "s2_dir": "/home/wangrk2026/sepsis_s7/data/s2",
+        "splits_path": "/home/wangrk2026/sepsis_s7/data/s7_phenotype_contrastive_full_20260516/splits/physionet2012_all_train_splits.json",
+        "split_sizes": {
+          "train": 11986,
+          "val": 11986,
+          "test": 11986
+        },
+        "split_policy": "full_overlap_all_patients",
+        "heldout": false
+      },
+      "physionet2019": {
+        "name": "physionet2019",
+        "role": "train",
+        "s0_dir": "/home/wangrk2026/sepsis_s7/data/s19_bridge",
+        "s2_dir": null,
+        "splits_path": "/home/wangrk2026/sepsis_s7/data/s7_phenotype_contrastive_full_20260516/splits/physionet2019_all_train_splits.json",
+        "split_sizes": {
+          "train": 40331,
+          "val": 40331,
+          "test": 40331
+        },
+        "split_policy": "full_overlap_all_patients",
+        "heldout": false
+      },
+      "mimiciv": {
+        "name": "mimiciv",
+        "role": "train",
+        "s0_dir": "/home/wangrk2026/sepsis_s7/data/external_temporal/mimic/s0",
+        "s2_dir": null,
+        "splits_path": "/home/wangrk2026/sepsis_s7/data/s7_phenotype_contrastive_full_20260516/splits/mimiciv_all_train_splits.json",
+        "split_sizes": {
+          "train": 94458,
+          "val": 94458,
+          "test": 94458
+        },
+        "split_policy": "full_overlap_all_patients",
+        "heldout": false
+      },
+      "eicu": {
+        "name": "eicu",
+        "role": "train",
+        "s0_dir": "/home/wangrk2026/sepsis_s7/data/external_temporal/eicu/s0",
+        "s2_dir": null,
+        "splits_path": "/home/wangrk2026/sepsis_s7/data/s7_phenotype_contrastive_full_20260516/splits/eicu_all_train_splits.json",
+        "split_sizes": {
+          "train": 200859,
+          "val": 200859,
+          "test": 200859
+        },
+        "split_policy": "full_overlap_all_patients",
+        "heldout": false
+      }
+    },
+    "total_train_patients": 347634,
+    "split_policy": {
+      "train": "all patients per source",
+      "val": "same patients as train for early-stopping/monitoring compatibility",
+      "test": "same patients as train for in-sample monitoring compatibility",
+      "heldout_external_validation": false
+    },
+    "s6_report_path": "/home/wangrk2026/sepsis_s7/data/s7_phenotype_contrastive_full_20260516/trajectory_encoder_report.json",
+    "s7_summary_path": "/home/wangrk2026/sepsis_s7/data/s7_phenotype_contrastive_full_20260516/s7_all_source_training_summary.json"
+  }
+}

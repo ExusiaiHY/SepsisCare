@@ -1,0 +1,95 @@
+{
+  "name": "sepsiscare-windows",
+  "version": "0.9.1",
+  "description": "SepsisCare Windows desktop app with bundled local demo backend",
+  "author": "sepsiscare research",
+  "license": "UNLICENSED",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "sync:web": "node scripts/sync-web.js",
+    "verify:package": "node --check main.js && node scripts/verify-windows-package.js",
+    "dist": "npm run sync:web && electron-builder --win nsis",
+    "dist:portable": "npm run sync:web && electron-builder --win portable"
+  },
+  "devDependencies": {
+    "electron": "^31.7.7",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "care.sepsis.desktop",
+    "productName": "sepsiscare",
+    "artifactName": "sepsiscare-${version}-${os}-${arch}.${ext}",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "renderer/web",
+        "to": "web"
+      },
+      {
+        "from": "vendor/python-3.12.10-embed-amd64",
+        "to": "python-embed",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "../sepsiscare-studio/backend",
+        "to": "backend",
+        "filter": [
+          "**/*",
+          "!runtime_data/audit.jsonl",
+          "!__pycache__/**/*"
+        ]
+      },
+      {
+        "from": "../../../03_remote_server_model_package/02_model_deploy_package",
+        "to": "02_model_deploy_package",
+        "filter": [
+          "models/**/*",
+          "reports/**/*",
+          "runtime_data/**/*",
+          "config/**/*",
+          "deploy/audit_runtime_data.py",
+          "deploy/verify_artifact_bundle.py",
+          "README_DEPLOY.md",
+          "!**/.runtime/**/*",
+          "!**/.venv/**/*",
+          "!**/__pycache__/**/*",
+          "!**/*.pyc"
+        ]
+      }
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": ["x64"]
+        }
+      ],
+      "publisherName": "sepsiscare research",
+      "requestedExecutionLevel": "asInvoker"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowElevation": true,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "sepsiscare",
+      "installerIcon": "build/icon.ico",
+      "uninstallerIcon": "build/icon.ico",
+      "license": "installer/LICENSE.txt",
+      "include": "installer/installer.nsh"
+    }
+  }
+}

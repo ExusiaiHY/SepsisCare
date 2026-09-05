@@ -1,0 +1,73 @@
+{
+  "stage": "s7_all_source_training",
+  "generated_at": "2026-05-16T22:20:14",
+  "intent": "Use every configured cohort as training data. Monitoring splits intentionally overlap train and must not be interpreted as held-out validation.",
+  "main_source": "physionet2012",
+  "sources": {
+    "physionet2012": {
+      "name": "physionet2012",
+      "role": "train",
+      "s0_dir": "/home/wangrk2026/sepsis_s7/data/s0",
+      "s2_dir": "/home/wangrk2026/sepsis_s7/data/s2",
+      "splits_path": "/home/wangrk2026/sepsis_s7/data/s7_phenotype_contrastive_full_20260516/splits/physionet2012_all_train_splits.json",
+      "split_sizes": {
+        "train": 11986,
+        "val": 11986,
+        "test": 11986
+      },
+      "split_policy": "full_overlap_all_patients",
+      "heldout": false
+    },
+    "physionet2019": {
+      "name": "physionet2019",
+      "role": "train",
+      "s0_dir": "/home/wangrk2026/sepsis_s7/data/s19_bridge",
+      "s2_dir": null,
+      "splits_path": "/home/wangrk2026/sepsis_s7/data/s7_phenotype_contrastive_full_20260516/splits/physionet2019_all_train_splits.json",
+      "split_sizes": {
+        "train": 40331,
+        "val": 40331,
+        "test": 40331
+      },
+      "split_policy": "full_overlap_all_patients",
+      "heldout": false
+    },
+    "mimiciv": {
+      "name": "mimiciv",
+      "role": "train",
+      "s0_dir": "/home/wangrk2026/sepsis_s7/data/external_temporal/mimic/s0",
+      "s2_dir": null,
+      "splits_path": "/home/wangrk2026/sepsis_s7/data/s7_phenotype_contrastive_full_20260516/splits/mimiciv_all_train_splits.json",
+      "split_sizes": {
+        "train": 94458,
+        "val": 94458,
+        "test": 94458
+      },
+      "split_policy": "full_overlap_all_patients",
+      "heldout": false
+    },
+    "eicu": {
+      "name": "eicu",
+      "role": "train",
+      "s0_dir": "/home/wangrk2026/sepsis_s7/data/external_temporal/eicu/s0",
+      "s2_dir": null,
+      "splits_path": "/home/wangrk2026/sepsis_s7/data/s7_phenotype_contrastive_full_20260516/splits/eicu_all_train_splits.json",
+      "split_sizes": {
+        "train": 200859,
+        "val": 200859,
+        "test": 200859
+      },
+      "split_policy": "full_overlap_all_patients",
+      "heldout": false
+    }
+  },
+  "total_train_patients": 347634,
+  "split_policy": {
+    "train": "all patients per source",
+    "val": "same patients as train for early-stopping/monitoring compatibility",
+    "test": "same patients as train for in-sample monitoring compatibility",
+    "heldout_external_validation": false
+  },
+  "s6_report_path": "/home/wangrk2026/sepsis_s7/data/s7_phenotype_contrastive_full_20260516/trajectory_encoder_report.json",
+  "s7_summary_path": "/home/wangrk2026/sepsis_s7/data/s7_phenotype_contrastive_full_20260516/s7_all_source_training_summary.json"
+}

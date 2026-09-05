@@ -1,0 +1,17 @@
+{
+  "product_name": "sepsiscare",
+  "bundle_identifier": "care.sepsis.desktop",
+  "version": "1.0.1",
+  "build": "2026.06.07",
+  "release_name": "Production Remote Training",
+  "brand_tokens": {
+    "research": ["#0A1424", "#1A66FA", "#00BDE6", "#7547EB"],
+    "family": ["#FFFFFF", "#E9FAF7", "#19A8B8", "#2EB857"],
+    "admin": ["#0D0D12", "#B98CFF", "#FFB338", "#E62945"]
+  },
+  "packaging_notes": [
+    "Runtime icon is generated from the same geometry used by BrandLogoMark.",
+    "WKWebView documentation uses bundled KaTeX assets for offline formula rendering.",
+    "Research, family, and admin roles intentionally use different density and color systems."
+  ]
+}

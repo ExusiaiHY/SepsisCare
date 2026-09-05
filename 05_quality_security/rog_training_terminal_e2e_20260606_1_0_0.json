@@ -1,0 +1,521 @@
+{
+  "after": {
+    "ok": true,
+    "recent_events": [
+      {
+        "bed_hash": "4c5b9ab8d1b40b40",
+        "device": {
+          "model": "MacTerminal",
+          "serial_hash": "ab91b4d0920a831c",
+          "vendor": "codex-e2e"
+        },
+        "labs": {
+          "creatinine": 1.7,
+          "lactate": 4.2,
+          "platelet": 121.0,
+          "wbc": 17.9
+        },
+        "patient_key": "ab91b4d0920a831c",
+        "received_at": "2026-06-06T19:02:21+08:00",
+        "record_id": "icu-1780743741622-1-ab91b4d0",
+        "source": "codex-mac-training-terminal-e2e",
+        "timestamp": "2026-06-06T11:02:51Z",
+        "vitals": {
+          "gcs": 12.0,
+          "heart_rate": 116.0,
+          "map": 62.0,
+          "resp_rate": 27.0,
+          "spo2": 92.0,
+          "temperature": 38.4
+        },
+        "ward": "ROG ICU"
+      },
+      {
+        "bed_hash": "4c5b9ab8d1b40b40",
+        "device": {
+          "model": "MacTerminal",
+          "serial_hash": "d54c09454afd3b63",
+          "vendor": "codex-e2e"
+        },
+        "labs": {
+          "creatinine": 2.1,
+          "lactate": 5.1,
+          "platelet": 107.0,
+          "wbc": 20.2
+        },
+        "patient_key": "d54c09454afd3b63",
+        "received_at": "2026-06-06T19:03:38+08:00",
+        "record_id": "icu-1780743818479-0-d54c0945",
+        "source": "codex-mac-training-terminal-e2e",
+        "timestamp": "2026-06-06T11:03:38Z",
+        "vitals": {
+          "gcs": 10.0,
+          "heart_rate": 123.0,
+          "map": 58.0,
+          "resp_rate": 31.0,
+          "spo2": 89.0,
+          "temperature": 39.0
+        },
+        "ward": "ROG ICU"
+      },
+      {
+        "bed_hash": "4c5b9ab8d1b40b40",
+        "device": {
+          "model": "MacTerminal",
+          "serial_hash": "c80b3ed14bf0fe23",
+          "vendor": "codex-e2e"
+        },
+        "labs": {
+          "creatinine": 1.8,
+          "lactate": 4.4,
+          "platelet": 118.0,
+          "wbc": 18.6
+        },
+        "patient_key": "c80b3ed14bf0fe23",
+        "received_at": "2026-06-06T19:03:38+08:00",
+        "record_id": "icu-1780743818479-1-c80b3ed1",
+        "source": "codex-mac-training-terminal-e2e",
+        "timestamp": "2026-06-06T11:04:08Z",
+        "vitals": {
+          "gcs": 11.0,
+          "heart_rate": 117.0,
+          "map": 61.0,
+          "resp_rate": 28.0,
+          "spo2": 91.0,
+          "temperature": 38.6
+        },
+        "ward": "ROG ICU"
+      }
+    ],
+    "storage": "managed-runtime/icu_timeseries.jsonl",
+    "total_events": 21,
+    "trained_event_count": 21,
+    "training_ready": false
+  },
+  "artifact_bytes": 4203654,
+  "artifact_path": "/Users/exusiaihy/SepsisCare_Final_Delivery_20260603/SepsisCare_Final_Delivery_20260603/05_quality_security/rog_artifacts_latest_20260606_1_0_0.zip",
+  "base_url": "http://100.65.136.96:8788",
+  "before": {
+    "ok": true,
+    "recent_events": [
+      {
+        "bed_hash": "ada70e74473cf542",
+        "device": {
+          "model": "SepsisCareOps",
+          "serial_hash": "6c232c75d1a9c06a",
+          "vendor": "remote-ops"
+        },
+        "labs": {
+          "creatinine": 1.8,
+          "lactate": 4.6,
+          "platelet": 116.0,
+          "wbc": 18.8
+        },
+        "patient_key": "81b6f04716d31996",
+        "received_at": "2026-06-06T19:01:16+08:00",
+        "record_id": "icu-1780743676166-1-81b6f047",
+        "source": "remote-ops-actual-training-check",
+        "timestamp": "2026-06-06T11:01:16.166201+00:00",
+        "vitals": {
+          "gcs": 11.0,
+          "heart_rate": 118.0,
+          "map": 60.0,
+          "resp_rate": 28.0,
+          "spo2": 91.0,
+          "temperature": 38.7
+        },
+        "ward": "ROG ICU"
+      },
+      {
+        "bed_hash": "4c5b9ab8d1b40b40",
+        "device": {
+          "model": "MacTerminal",
+          "serial_hash": "5b497bfa4fe7ca3a",
+          "vendor": "codex-e2e"
+        },
+        "labs": {
+          "creatinine": 1.9,
+          "lactate": 4.9,
+          "platelet": 112.0,
+          "wbc": 19.4
+        },
+        "patient_key": "5b497bfa4fe7ca3a",
+        "received_at": "2026-06-06T19:02:21+08:00",
+        "record_id": "icu-1780743741622-0-5b497bfa",
+        "source": "codex-mac-training-terminal-e2e",
+        "timestamp": "2026-06-06T11:02:21Z",
+        "vitals": {
+          "gcs": 11.0,
+          "heart_rate": 121.0,
+          "map": 59.0,
+          "resp_rate": 29.0,
+          "spo2": 90.0,
+          "temperature": 38.9
+        },
+        "ward": "ROG ICU"
+      },
+      {
+        "bed_hash": "4c5b9ab8d1b40b40",
+        "device": {
+          "model": "MacTerminal",
+          "serial_hash": "ab91b4d0920a831c",
+          "vendor": "codex-e2e"
+        },
+        "labs": {
+          "creatinine": 1.7,
+          "lactate": 4.2,
+          "platelet": 121.0,
+          "wbc": 17.9
+        },
+        "patient_key": "ab91b4d0920a831c",
+        "received_at": "2026-06-06T19:02:21+08:00",
+        "record_id": "icu-1780743741622-1-ab91b4d0",
+        "source": "codex-mac-training-terminal-e2e",
+        "timestamp": "2026-06-06T11:02:51Z",
+        "vitals": {
+          "gcs": 12.0,
+          "heart_rate": 116.0,
+          "map": 62.0,
+          "resp_rate": 27.0,
+          "spo2": 92.0,
+          "temperature": 38.4
+        },
+        "ward": "ROG ICU"
+      }
+    ],
+    "storage": "managed-runtime/icu_timeseries.jsonl",
+    "total_events": 19,
+    "trained_event_count": 19,
+    "training_ready": false
+  },
+  "ingest": {
+    "accepted": 2,
+    "ok": true,
+    "storage": "managed-runtime/icu_timeseries.jsonl",
+    "total_events": 21,
+    "trained_event_count": 19,
+    "training_ready": true
+  },
+  "ok": true,
+  "openapi_info": {
+    "title": "SepsisCare Model Service",
+    "version": "1.0.0"
+  },
+  "remoteops": {
+    "allowed_actions": [
+      "apply_update_zip",
+      "restart_service",
+      "status",
+      "verify_actual_training"
+    ],
+    "allowed_update_files": [
+      "README_ROG_ACTUAL_TRAINING_UPDATE.md",
+      "deploy/audit_runtime_data.py",
+      "deploy/model_service.py",
+      "deploy/requirements_model_deploy.txt",
+      "deploy/start_model_service_windows.ps1",
+      "deploy/test_model_service.py",
+      "deploy/test_verify_artifact_bundle.py",
+      "deploy/verify_artifact_bundle.py",
+      "install_and_verify_rog_actual_training.cmd",
+      "scripts/update_rog_model_service.ps1",
+      "scripts/verify_rog_actual_training.ps1"
+    ],
+    "auth": "bearer-token-required-for-remote-clients",
+    "max_update_bytes": 2097152,
+    "model_id": "s7_phenotype_contrastive_full_20260516",
+    "ok": true,
+    "package_root": "managed-runtime/deploy-root",
+    "remote_ops_version": "2026.06.05",
+    "service": "sepsiscare-remote-ops",
+    "service_version": "1.0.0"
+  },
+  "terminal_download": {
+    "action": null,
+    "cloud_response": {
+      "artifacts": [
+        {
+          "created_at": "2026-06-06T19:03:39+08:00",
+          "download_url": "/api/artifacts/latest",
+          "kind": "model_artifacts",
+          "manifest": "MANIFEST.sha256",
+          "name": "sepsiscare_model_artifacts_latest.zip",
+          "path": "managed-runtime/artifacts/sepsiscare_model_artifacts_latest.zip",
+          "sha256": "0d34b8fe035094c1fe991da865ec2337242b03ced277aec5bd8dd45507b47343",
+          "size_bytes": 4203654
+        }
+      ],
+      "metrics": {
+        "accuracy": 0.884,
+        "actual_training_examples": 2,
+        "data_parallel_gpus": 7,
+        "encoder_macro_f1": 0.99,
+        "epoch": 18,
+        "incremental_adapter_data_sha256": "8b06c118d17d3d6f",
+        "incremental_adapter_loss": 0.648926,
+        "incremental_adapter_path": "managed-runtime/models/incremental_icu_adapter.json",
+        "incremental_new_events": 2,
+        "incremental_train_events": 21,
+        "loss": 0.3525,
+        "macro_f1": 0.99,
+        "model_revision": "incremental-20260606T110338Z-21",
+        "mortality_auroc": 0.8484669929243582,
+        "next_mv_auroc": 0.9684646706192623,
+        "progress": 100,
+        "remaining_los_mae_hours": 2.9549930095672607,
+        "split_type": "in-sample monitoring",
+        "total_train_patients": 347655
+      },
+      "ok": true,
+      "output": [
+        "已打包模型成果：managed-runtime/artifacts/sepsiscare_model_artifacts_latest.zip",
+        "客户端可通过 /api/artifacts/latest 下载。"
+      ],
+      "task_status": "idle"
+    },
+    "command": "download artifacts",
+    "error": null,
+    "mode": "production",
+    "ok": true,
+    "output": [
+      "远程 Windows 模型服务直接执行训练终端指令。",
+      "已打包模型成果：managed-runtime/artifacts/sepsiscare_model_artifacts_latest.zip",
+      "客户端可通过 /api/artifacts/latest 下载。"
+    ],
+    "status": {
+      "actions": [
+        {
+          "action": "continue_training",
+          "shortcut": "train",
+          "title": "继续训练"
+        },
+        {
+          "action": "pause_training",
+          "shortcut": "pause",
+          "title": "暂停训练"
+        },
+        {
+          "action": "stream_metrics",
+          "shortcut": "metrics",
+          "title": "刷新指标"
+        },
+        {
+          "action": "download_artifacts",
+          "shortcut": "download",
+          "title": "打包成果"
+        }
+      ],
+      "artifacts": [
+        {
+          "created_at": "2026-06-06T19:03:39+08:00",
+          "download_url": "/api/artifacts/latest",
+          "kind": "model_artifacts",
+          "manifest": "MANIFEST.sha256",
+          "name": "sepsiscare_model_artifacts_latest.zip",
+          "path": "managed-runtime/artifacts/sepsiscare_model_artifacts_latest.zip",
+          "sha256": "0d34b8fe035094c1fe991da865ec2337242b03ced277aec5bd8dd45507b47343",
+          "size_bytes": 4203654
+        }
+      ],
+      "cloud_base_url": "http://100.65.136.96:8788",
+      "cloud_ready": true,
+      "last_action": "status",
+      "metrics": {
+        "accuracy": 0.884,
+        "actual_training_examples": 2,
+        "data_parallel_gpus": 7,
+        "encoder_macro_f1": 0.99,
+        "epoch": 18,
+        "incremental_adapter_data_sha256": "8b06c118d17d3d6f",
+        "incremental_adapter_loss": 0.648926,
+        "incremental_adapter_path": "managed-runtime/models/incremental_icu_adapter.json",
+        "incremental_new_events": 2,
+        "incremental_train_events": 21,
+        "loss": 0.3525,
+        "macro_f1": 0.99,
+        "model_revision": "incremental-20260606T110338Z-21",
+        "mortality_auroc": 0.8484669929243582,
+        "next_mv_auroc": 0.9684646706192623,
+        "progress": 100,
+        "remaining_los_mae_hours": 2.9549930095672607,
+        "split_type": "in-sample monitoring",
+        "total_train_patients": 347655
+      },
+      "mode": "production",
+      "mode_label": "远程 Windows 生产模型服务",
+      "model_profile": "s7_phenotype_contrastive_full_20260516",
+      "notice": "远程 Windows 模型服务生产模式：训练、指标、成果下载和患者数据库接口都由远端提供。",
+      "ok": true,
+      "params": {},
+      "task_status": "idle",
+      "updated_at": "2026-06-06T19:03:39+08:00",
+      "version": "remote-windows-model-server-v1"
+    }
+  },
+  "terminal_train": {
+    "action": "continue_training",
+    "cloud_response": {
+      "artifacts": [
+        {
+          "created_at": "2026-06-06T19:03:38+08:00",
+          "kind": "incremental_training_report",
+          "model_revision": "incremental-20260606T110338Z-21",
+          "name": "incremental-20260606T110338Z-21.json",
+          "new_events": 2,
+          "path": "managed-runtime/reports/incremental_training/incremental-20260606T110338Z-21.json",
+          "total_events": 21
+        },
+        {
+          "created_at": "2026-06-06T19:03:38+08:00",
+          "kind": "incremental_icu_adapter",
+          "model_revision": "incremental-20260606T110338Z-21",
+          "name": "incremental_icu_adapter.json",
+          "optimizer_steps": 168,
+          "path": "managed-runtime/models/incremental_icu_adapter.json",
+          "training_examples": 2
+        },
+        {
+          "created_at": "2026-06-06T19:02:48+08:00",
+          "download_url": "/api/artifacts/latest",
+          "kind": "model_artifacts",
+          "manifest": "MANIFEST.sha256",
+          "name": "sepsiscare_model_artifacts_latest.zip",
+          "path": "managed-runtime/artifacts/sepsiscare_model_artifacts_latest.zip",
+          "sha256": "dbbdf822b2adc4bc0abbc93e4219d38cb5c660c0c3ddf5eed93bdce538f0c327",
+          "size_bytes": 4202649
+        }
+      ],
+      "metrics": {
+        "accuracy": 0.884,
+        "actual_training_examples": 2,
+        "data_parallel_gpus": 7,
+        "encoder_macro_f1": 0.99,
+        "epoch": 18,
+        "incremental_adapter_data_sha256": "8b06c118d17d3d6f",
+        "incremental_adapter_loss": 0.648926,
+        "incremental_adapter_path": "managed-runtime/models/incremental_icu_adapter.json",
+        "incremental_new_events": 2,
+        "incremental_train_events": 21,
+        "loss": 0.3525,
+        "macro_f1": 0.99,
+        "model_revision": "incremental-20260606T110338Z-21",
+        "mortality_auroc": 0.8484669929243582,
+        "next_mv_auroc": 0.9684646706192623,
+        "progress": 100,
+        "remaining_los_mae_hours": 2.9549930095672607,
+        "split_type": "in-sample monitoring",
+        "total_train_patients": 347655
+      },
+      "ok": true,
+      "output": [
+        "已基于 2 条新 ICU 时序事件完成实际 adapter 增量训练。",
+        "model_revision=incremental-20260606T110338Z-21",
+        "adapter_loss=0.648926 optimizer_steps=168",
+        "total_train_patients=347655 macro_f1=0.99",
+        "adapter=managed-runtime/models/incremental_icu_adapter.json",
+        "report=managed-runtime/reports/incremental_training/incremental-20260606T110338Z-21.json"
+      ],
+      "task_status": "trained"
+    },
+    "command": null,
+    "error": null,
+    "mode": "production",
+    "ok": true,
+    "output": [
+      "远程 Windows 模型服务直接执行训练终端动作。",
+      "已基于 2 条新 ICU 时序事件完成实际 adapter 增量训练。",
+      "model_revision=incremental-20260606T110338Z-21",
+      "adapter_loss=0.648926 optimizer_steps=168",
+      "total_train_patients=347655 macro_f1=0.99",
+      "adapter=managed-runtime/models/incremental_icu_adapter.json",
+      "report=managed-runtime/reports/incremental_training/incremental-20260606T110338Z-21.json"
+    ],
+    "status": {
+      "actions": [
+        {
+          "action": "continue_training",
+          "shortcut": "train",
+          "title": "继续训练"
+        },
+        {
+          "action": "pause_training",
+          "shortcut": "pause",
+          "title": "暂停训练"
+        },
+        {
+          "action": "stream_metrics",
+          "shortcut": "metrics",
+          "title": "刷新指标"
+        },
+        {
+          "action": "download_artifacts",
+          "shortcut": "download",
+          "title": "打包成果"
+        }
+      ],
+      "artifacts": [
+        {
+          "created_at": "2026-06-06T19:03:38+08:00",
+          "kind": "incremental_training_report",
+          "model_revision": "incremental-20260606T110338Z-21",
+          "name": "incremental-20260606T110338Z-21.json",
+          "new_events": 2,
+          "path": "managed-runtime/reports/incremental_training/incremental-20260606T110338Z-21.json",
+          "total_events": 21
+        },
+        {
+          "created_at": "2026-06-06T19:03:38+08:00",
+          "kind": "incremental_icu_adapter",
+          "model_revision": "incremental-20260606T110338Z-21",
+          "name": "incremental_icu_adapter.json",
+          "optimizer_steps": 168,
+          "path": "managed-runtime/models/incremental_icu_adapter.json",
+          "training_examples": 2
+        },
+        {
+          "created_at": "2026-06-06T19:02:48+08:00",
+          "download_url": "/api/artifacts/latest",
+          "kind": "model_artifacts",
+          "manifest": "MANIFEST.sha256",
+          "name": "sepsiscare_model_artifacts_latest.zip",
+          "path": "managed-runtime/artifacts/sepsiscare_model_artifacts_latest.zip",
+          "sha256": "dbbdf822b2adc4bc0abbc93e4219d38cb5c660c0c3ddf5eed93bdce538f0c327",
+          "size_bytes": 4202649
+        }
+      ],
+      "cloud_base_url": "http://100.65.136.96:8788",
+      "cloud_ready": true,
+      "last_action": "status",
+      "metrics": {
+        "accuracy": 0.884,
+        "actual_training_examples": 2,
+        "data_parallel_gpus": 7,
+        "encoder_macro_f1": 0.99,
+        "epoch": 18,
+        "incremental_adapter_data_sha256": "8b06c118d17d3d6f",
+        "incremental_adapter_loss": 0.648926,
+        "incremental_adapter_path": "managed-runtime/models/incremental_icu_adapter.json",
+        "incremental_new_events": 2,
+        "incremental_train_events": 21,
+        "loss": 0.3525,
+        "macro_f1": 0.99,
+        "model_revision": "incremental-20260606T110338Z-21",
+        "mortality_auroc": 0.8484669929243582,
+        "next_mv_auroc": 0.9684646706192623,
+        "progress": 100,
+        "remaining_los_mae_hours": 2.9549930095672607,
+        "split_type": "in-sample monitoring",
+        "total_train_patients": 347655
+      },
+      "mode": "production",
+      "mode_label": "远程 Windows 生产模型服务",
+      "model_profile": "s7_phenotype_contrastive_full_20260516",
+      "notice": "远程 Windows 模型服务生产模式：训练、指标、成果下载和患者数据库接口都由远端提供。",
+      "ok": true,
+      "params": {},
+      "task_status": "trained",
+      "updated_at": "2026-06-06T19:03:38+08:00",
+      "version": "remote-windows-model-server-v1"
+    }
+  }
+}

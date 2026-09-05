@@ -1,0 +1,20 @@
+# Generated build output and local dependency caches
+.build/
+.swift_module_cache/
+dist/
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.DS_Store
+
+# Local credentials and environment overrides
+.env
+.env.local
+.env.*.local
+
+# Installers are preserved in the original GitHub Release archive.
+/02_installers/
+/SepsisCare_Final_Submission_20260612.zip

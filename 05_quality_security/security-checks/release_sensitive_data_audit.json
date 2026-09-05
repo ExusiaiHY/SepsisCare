@@ -1,0 +1,16 @@
+{
+  "findings": [],
+  "ok": true,
+  "root": "/Users/exusiaihy/SepsisCare_Final_Delivery_20260603/SepsisCare_Final_Delivery_20260603/03_remote_server_model_package/02_model_deploy_package",
+  "roots": [
+    "/Users/exusiaihy/SepsisCare_Final_Delivery_20260603/SepsisCare_Final_Delivery_20260603/03_remote_server_model_package/02_model_deploy_package",
+    "/Users/exusiaihy/SepsisCare_Final_Delivery_20260603/SepsisCare_Final_Delivery_20260603/04_client_source/apps/sepsiscare-studio/backend",
+    "/Users/exusiaihy/SepsisCare_Final_Delivery_20260603/SepsisCare_Final_Delivery_20260603/04_client_source/apps/sepsiscare-web-client",
+    "/Users/exusiaihy/SepsisCare_Final_Delivery_20260603/SepsisCare_Final_Delivery_20260603/04_client_source/apps/SepsisCare-Windows/renderer/web",
+    "/Users/exusiaihy/SepsisCare_Final_Delivery_20260603/SepsisCare_Final_Delivery_20260603/04_client_source/apps/SepsisCare-iOS/Resources/Web",
+    "/Users/exusiaihy/SepsisCare_Final_Delivery_20260603/SepsisCare_Final_Delivery_20260603/04_client_source/apps/SepsisCare-Android/app/src/main/assets/web"
+  ],
+  "summary": {
+    "findings": 0
+  }
+}

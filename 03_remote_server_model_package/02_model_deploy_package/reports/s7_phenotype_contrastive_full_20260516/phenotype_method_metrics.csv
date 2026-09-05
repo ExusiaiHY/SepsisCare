@@ -1,0 +1,29 @@
+run_id,strategy,split_type,method,macro_f1,window_match_rate,full_patient_match_rate,zero_match_patient_rate
+s6_trajectory_encoder_gru_v2,S6 GRU baseline,held-out S0 test,Rule,0.1417682831759692,0.3082812109081811,0.19089316987740806,0.5579184388291218
+s6_trajectory_encoder_gru_v2,S6 GRU baseline,held-out S0 test,Rule + transition,0.13827642147441324,0.3065298974230673,0.19764823617713284,0.5746810107580685
+s6_trajectory_encoder_gru_v2,S6 GRU baseline,held-out S0 test,Encoder,0.7897558189408338,0.8011508631473605,0.4816112084063047,0.009256942707030274
+s6_trajectory_encoder_gru_v2,S6 GRU baseline,held-out S0 test,Encoder + transition,0.821372248862424,0.8291218413810357,0.6247185389041782,0.04328246184638479
+s6_trajectory_encoder_source_balanced_dann_coral_v1,Source-balanced,held-out S0 test,Rule,0.1417682831759692,0.3082812109081811,0.19089316987740806,0.5579184388291218
+s6_trajectory_encoder_source_balanced_dann_coral_v1,Source-balanced,held-out S0 test,Rule + transition,0.13827642147441324,0.3065298974230673,0.19764823617713284,0.5746810107580685
+s6_trajectory_encoder_source_balanced_dann_coral_v1,Source-balanced,held-out S0 test,Encoder,0.7545049419081222,0.764873655241431,0.42882161621215914,0.01926444833625219
+s6_trajectory_encoder_source_balanced_dann_coral_v1,Source-balanced,held-out S0 test,Encoder + transition,0.7860092047546926,0.7922942206654991,0.5911933950462848,0.0657993495121341
+s6_trajectory_encoder_source_balanced_dann_coral_s0ft_v1,Source-balanced + S0 FT,held-out S0 test,Rule,0.1417682831759692,0.3082812109081811,0.19089316987740806,0.5579184388291218
+s6_trajectory_encoder_source_balanced_dann_coral_s0ft_v1,Source-balanced + S0 FT,held-out S0 test,Rule + transition,0.13827642147441324,0.3065298974230673,0.19764823617713284,0.5746810107580685
+s6_trajectory_encoder_source_balanced_dann_coral_s0ft_v1,Source-balanced + S0 FT,held-out S0 test,Encoder,0.7457990496329143,0.7553164873655241,0.4070552914686015,0.02051538653990493
+s6_trajectory_encoder_source_balanced_dann_coral_s0ft_v1,Source-balanced + S0 FT,held-out S0 test,Encoder + transition,0.7887998862843448,0.7942456842631974,0.5909432074055542,0.06404803602702026
+s6_trajectory_encoder_missing_groupdro_s0ft_v1,Missingness-aware GroupDRO + S0 FT,held-out S0 test,Rule,0.1417682831759692,0.3082812109081811,0.19089316987740806,0.5579184388291218
+s6_trajectory_encoder_missing_groupdro_s0ft_v1,Missingness-aware GroupDRO + S0 FT,held-out S0 test,Rule + transition,0.13827642147441324,0.3065298974230673,0.19764823617713284,0.5746810107580685
+s6_trajectory_encoder_missing_groupdro_s0ft_v1,Missingness-aware GroupDRO + S0 FT,held-out S0 test,Encoder,0.7850761713164098,0.7929447085313985,0.4796097072804603,0.01576182136602452
+s6_trajectory_encoder_missing_groupdro_s0ft_v1,Missingness-aware GroupDRO + S0 FT,held-out S0 test,Encoder + transition,0.8062719698112524,0.8116587440580435,0.6102076557418064,0.05354015511633725
+s7_all_sources_8gpu_20260516_1945,S7 all-source 8GPU,in-sample monitoring,Rule,0.13955832793811762,0.30185216085433003,0.1829634573669281,0.5665776739529451
+s7_all_sources_8gpu_20260516_1945,S7 all-source 8GPU,in-sample monitoring,Rule + transition,0.13591845197289287,0.3,0.1903887869180711,0.5853495745035875
+s7_all_sources_8gpu_20260516_1945,S7 all-source 8GPU,in-sample monitoring,Encoder,0.7297747568191129,0.7409477724011346,0.4029701318204572,0.026447522109127316
+s7_all_sources_8gpu_20260516_1945,S7 all-source 8GPU,in-sample monitoring,Encoder + transition,0.7694804333801797,0.7774236609377607,0.5871850492240948,0.08551643584181545
+s7_phenotype_contrastive_trial_20260516,S7 + phenotype CE/SupCon capped,in-sample monitoring,Rule,0.13955832793811762,0.30185216085433003,0.1829634573669281,0.5665776739529451
+s7_phenotype_contrastive_trial_20260516,S7 + phenotype CE/SupCon capped,in-sample monitoring,Rule + transition,0.13591845197289287,0.3,0.1903887869180711,0.5853495745035875
+s7_phenotype_contrastive_trial_20260516,S7 + phenotype CE/SupCon capped,in-sample monitoring,Encoder,0.970611674235651,0.9720674119806441,0.8775237777406975,8.34306691139663e-05
+s7_phenotype_contrastive_trial_20260516,S7 + phenotype CE/SupCon capped,in-sample monitoring,Encoder + transition,0.9571177463363605,0.9592190889370933,0.8336392457867512,0.0001668613382279326
+s7_phenotype_contrastive_full_20260516,S7 + phenotype CE/SupCon full,in-sample monitoring,Rule,0.13955832793811762,0.30185216085433003,0.1829634573669281,0.5665776739529451
+s7_phenotype_contrastive_full_20260516,S7 + phenotype CE/SupCon full,in-sample monitoring,Rule + transition,0.13591845197289287,0.3,0.1903887869180711,0.5853495745035875
+s7_phenotype_contrastive_full_20260516,S7 + phenotype CE/SupCon full,in-sample monitoring,Encoder,0.9709154883540718,0.972234273318872,0.8783580844318372,0.0
+s7_phenotype_contrastive_full_20260516,S7 + phenotype CE/SupCon full,in-sample monitoring,Encoder + transition,0.9562308594924265,0.9583347238444853,0.8317203403971299,0.0003337226764558652

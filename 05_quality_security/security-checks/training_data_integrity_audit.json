@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "package_dir": "/Users/exusiaihy/SepsisCare_Final_Delivery_20260603/SepsisCare_Final_Delivery_20260603/03_remote_server_model_package/02_model_deploy_package",
+  "summary": {
+    "declared_total_train_patients": 347634,
+    "sources": 4,
+    "strategy_rows": 7,
+    "target_run_rows": 1,
+    "violations": 0
+  },
+  "violations": []
+}

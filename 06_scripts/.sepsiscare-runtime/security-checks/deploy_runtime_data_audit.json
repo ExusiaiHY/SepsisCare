@@ -1,0 +1,13 @@
+{
+  "ok": false,
+  "runtime_dir": "/Users/exusiaihy/SepsisCare_Final_Delivery_20260603/SepsisCare_Final_Delivery_20260603/06_scripts/02_model_deploy_package/runtime_data",
+  "summary": {},
+  "violations": [
+    {
+      "category": "read_error",
+      "detail": "cannot read /Users/exusiaihy/SepsisCare_Final_Delivery_20260603/SepsisCare_Final_Delivery_20260603/06_scripts/02_model_deploy_package/runtime_data/history_patients.json",
+      "location": "/Users/exusiaihy/SepsisCare_Final_Delivery_20260603/SepsisCare_Final_Delivery_20260603/06_scripts/02_model_deploy_package/runtime_data"
+    }
+  ],
+  "warnings": []
+}

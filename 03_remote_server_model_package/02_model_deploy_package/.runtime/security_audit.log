@@ -1,0 +1,572 @@
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "50ba209bc89cd6d221041c1a3a9dfa286ec9995fc7bdc44d4a73cbed539778d5", "size_bytes": 4192542, "ts": "2026-06-03T22:11:01+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-04T22:46:58+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-04T22:46:58+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-04T22:46:58+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "fb50c52a5d5355ddc3b4132b0d22f58ca188ae421d59172de3d4bb525b9a19ff", "size_bytes": 4192542, "ts": "2026-06-04T22:46:58+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-04T22:46:58+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-04T22:46:58+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-04T22:46:58+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-04T22:46:58+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-04T22:46:58+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-04T22:46:58+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-04T22:46:58+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-04T22:46:58+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-04T22:46:58+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-04T22:46:58+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-04T23:08:55+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-04T23:08:55+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-04T23:08:55+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "5323b4c20a4f8b2aef1fc69ade50bce04ea77d6cbdaae99fbc14aeda90e55b81", "size_bytes": 4193298, "ts": "2026-06-04T23:08:56+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-04T23:08:56+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-04T23:08:56+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-04T23:08:56+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-04T23:08:56+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-04T23:08:56+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-04T23:08:56+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-04T23:08:56+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-04T23:08:56+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-04T23:08:56+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-04T23:08:56+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-04T23:46:33+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-04T23:46:33+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-04T23:46:33+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "bfad8ba20b8ea79387197acfc1cc18952db8bdfdbf962facb6fb649308deffd5", "size_bytes": 4195499, "ts": "2026-06-04T23:46:34+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-04T23:46:34+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-04T23:46:34+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-04T23:46:34+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-04T23:46:34+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-04T23:46:34+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-04T23:46:34+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-04T23:46:34+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-04T23:46:34+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-04T23:46:34+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-04T23:46:34+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-05T00:03:44+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T00:03:44+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T00:03:44+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "77ee1d185246bb742c147f56c1c8d2d142146dcf73bd9341e7e010c09669a5ec", "size_bytes": 4196978, "ts": "2026-06-05T00:03:44+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T00:03:44+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T00:03:44+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T00:03:44+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T00:03:44+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T00:03:44+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T00:03:44+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T00:03:44+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T00:03:44+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T00:03:44+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T00:03:44+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-05T00:36:58+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T00:36:58+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T00:36:58+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "f9f1b62a52d4a9fc459c1454efaaeaed12117ab70adff08e8198cd978f4b4692", "size_bytes": 4196978, "ts": "2026-06-05T00:36:58+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T00:36:58+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T00:36:58+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T00:36:58+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T00:36:58+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T00:36:58+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T00:36:58+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T00:36:59+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T00:36:59+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T00:36:59+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T00:36:59+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-05T00:41:15+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T00:41:15+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T00:41:15+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "70b394c5285ea8197537c9bf1c8608adbf85af8867bca52f37b83288f245c512", "size_bytes": 4196978, "ts": "2026-06-05T00:41:16+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T00:41:16+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T00:41:16+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T00:41:16+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T00:41:16+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T00:41:16+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T00:41:16+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T00:41:16+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T00:41:16+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T00:41:16+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T00:41:16+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-05T01:22:57+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T01:22:58+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T01:22:58+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "b334ac522260518cf553ae88e1dcfdf79ef02b833fbd837526c4a60d20198412", "size_bytes": 4197717, "ts": "2026-06-05T01:22:59+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T01:23:00+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T01:23:00+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T01:23:00+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T01:23:00+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T01:23:00+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T01:23:00+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T01:23:00+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T01:23:00+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T01:23:00+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T01:23:00+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-05T14:55:10+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T14:55:10+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T14:55:10+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "149e3fcafdbdead13c4485060dfd494a1e7e8eb60042d3b275e4ac878caeca55", "size_bytes": 4198453, "ts": "2026-06-05T14:55:11+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T14:55:11+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T14:55:11+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T14:55:11+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T14:55:11+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T14:55:11+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T14:55:11+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T14:55:11+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T14:55:11+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T14:55:11+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T14:55:11+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-05T15:10:42+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T15:10:43+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T15:10:43+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "a97cd8ef543730eca384fa603af85094e2b5ec5f61c0c514283014f7c8a3d167", "size_bytes": 4198453, "ts": "2026-06-05T15:10:43+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T15:10:43+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T15:10:43+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T15:10:43+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T15:10:43+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T15:10:43+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T15:10:43+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T15:10:43+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T15:10:43+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T15:10:43+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T15:10:43+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-05T15:40:21+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T15:40:21+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T15:40:21+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "1ba92b2931c4f3739ac6148339c271af92de0eb9c9e23f6ea20a2875eb26dadc", "size_bytes": 4198453, "ts": "2026-06-05T15:40:22+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T15:40:22+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T15:40:22+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T15:40:22+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T15:40:22+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T15:40:22+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T15:40:22+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T15:40:22+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T15:40:22+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T15:40:22+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T15:40:22+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-05T16:00:33+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T16:00:33+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T16:00:33+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "a8bc69a8b1a0cb30f42f7e5c8a42df9f436f4cc144360ae525197664837a66f9", "size_bytes": 4198453, "ts": "2026-06-05T16:00:33+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T16:00:33+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T16:00:33+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T16:00:33+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T16:00:33+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T16:00:33+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T16:00:33+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T16:00:33+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T16:00:33+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T16:00:33+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T16:00:33+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-05T16:12:00+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T16:12:00+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T16:12:00+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "b5de508026e7c401a55741d9519eaa45cb7e627889f14d6e8181920c7babe413", "size_bytes": 4198453, "ts": "2026-06-05T16:12:00+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T16:12:00+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T16:12:00+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T16:12:00+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T16:12:00+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T16:12:00+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T16:12:00+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T16:12:00+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T16:12:00+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T16:12:00+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T16:12:00+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-05T16:54:51+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T16:54:51+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T16:54:51+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "ca4e0bcd6091e6ec12db3218440e0beac3d880fa663b2fe21bfb09f5c4c23018", "size_bytes": 4198453, "ts": "2026-06-05T16:54:52+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T16:54:52+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T16:54:52+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T16:54:52+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T16:54:52+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T16:54:52+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T16:54:52+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T16:54:52+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T16:54:52+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T16:54:52+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T16:54:52+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-05T17:09:13+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T17:09:13+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T17:09:13+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "aae60893e6b2ee6ff95efb22688f094bec1b4d9f0efdeedff19edf8eb2b4668c", "size_bytes": 4198453, "ts": "2026-06-05T17:09:13+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T17:09:13+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T17:09:13+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T17:09:13+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T17:09:13+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T17:09:13+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T17:09:13+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T17:09:13+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T17:09:13+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T17:09:13+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T17:09:13+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-05T17:12:10+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T17:12:10+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T17:12:10+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "72c9269508c5cfd53b48906ed4b3cf5e414198229eb333e722e0f41cafe94824", "size_bytes": 4198453, "ts": "2026-06-05T17:12:11+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T17:12:11+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T17:12:11+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T17:12:11+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T17:12:11+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T17:12:11+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T17:12:11+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T17:12:11+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T17:12:11+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T17:12:11+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T17:12:11+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/admin/remote-ops/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T17:22:50+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/admin/remote-ops/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T17:25:19+08:00"}
+{"action": "shell", "error": "unsupported_remote_op", "event": "remote_ops_rejected", "path": "/api/admin/remote-ops/command", "status_code": 400, "ts": "2026-06-05T17:25:19+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/admin/remote-ops/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T17:25:37+08:00"}
+{"action": "shell", "error": "unsupported_remote_op", "event": "remote_ops_rejected", "path": "/api/admin/remote-ops/command", "status_code": 400, "ts": "2026-06-05T17:25:37+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/admin/remote-ops/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T17:43:34+08:00"}
+{"action": "shell", "error": "unsupported_remote_op", "event": "remote_ops_rejected", "path": "/api/admin/remote-ops/command", "status_code": 400, "ts": "2026-06-05T17:43:34+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/admin/remote-ops/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T17:48:10+08:00"}
+{"action": "shell", "error": "unsupported_remote_op", "event": "remote_ops_rejected", "path": "/api/admin/remote-ops/command", "status_code": 400, "ts": "2026-06-05T17:48:10+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-05T18:03:32+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T18:03:32+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T18:03:32+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "6f3931d76b66f284f78783b8a894b0e76276b6a9f3623362bed22b949d43e1e0", "size_bytes": 4198453, "ts": "2026-06-05T18:03:32+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/admin/remote-ops/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T18:03:32+08:00"}
+{"action": "shell", "error": "unsupported_remote_op", "event": "remote_ops_rejected", "path": "/api/admin/remote-ops/command", "status_code": 400, "ts": "2026-06-05T18:03:32+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T18:03:32+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T18:03:32+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T18:03:32+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T18:03:32+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T18:03:32+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T18:03:32+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T18:03:32+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T18:03:32+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T18:03:32+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T18:03:32+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-05T18:04:12+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T18:04:12+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T18:04:12+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "a3425f6e956a2d9ac78af98304f5909db817f875d3210f4ab066b4f7068b24d3", "size_bytes": 4198453, "ts": "2026-06-05T18:04:12+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/admin/remote-ops/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T18:04:12+08:00"}
+{"action": "shell", "error": "unsupported_remote_op", "event": "remote_ops_rejected", "path": "/api/admin/remote-ops/command", "status_code": 400, "ts": "2026-06-05T18:04:12+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T18:04:12+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T18:04:12+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T18:04:12+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T18:04:12+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T18:04:12+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T18:04:12+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T18:04:12+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T18:04:12+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T18:04:12+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T18:04:12+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-05T18:04:55+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T18:04:56+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T18:04:56+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "248242aec8b485a5b22140cafd0c46c062187deb293c1bddd76bdb629c167ed4", "size_bytes": 4198453, "ts": "2026-06-05T18:04:56+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/admin/remote-ops/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T18:04:56+08:00"}
+{"action": "shell", "error": "unsupported_remote_op", "event": "remote_ops_rejected", "path": "/api/admin/remote-ops/command", "status_code": 400, "ts": "2026-06-05T18:04:56+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T18:04:56+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T18:04:56+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T18:04:56+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T18:04:56+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T18:04:56+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T18:04:56+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T18:04:56+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T18:04:56+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T18:04:56+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T18:04:56+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-05T18:06:34+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T18:06:34+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T18:06:34+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "011fb7796d9830b68f76d0c0362d1e98b3c3d2d526a0db16f2634a909f669522", "size_bytes": 4198453, "ts": "2026-06-05T18:06:35+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/admin/remote-ops/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T18:06:35+08:00"}
+{"action": "shell", "error": "unsupported_remote_op", "event": "remote_ops_rejected", "path": "/api/admin/remote-ops/command", "status_code": 400, "ts": "2026-06-05T18:06:35+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T18:06:35+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T18:06:35+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T18:06:35+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T18:06:35+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T18:06:35+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T18:06:35+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T18:06:35+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T18:06:35+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T18:06:35+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T18:06:35+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-05T18:11:47+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T18:11:47+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T18:11:47+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "3e9f11bdc9191db8f81f7bd39f8f54c0ea0c318376f0c4891d646c47e534cd8b", "size_bytes": 4198453, "ts": "2026-06-05T18:11:47+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/admin/remote-ops/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T18:11:47+08:00"}
+{"action": "shell", "error": "unsupported_remote_op", "event": "remote_ops_rejected", "path": "/api/admin/remote-ops/command", "status_code": 400, "ts": "2026-06-05T18:11:47+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T18:11:47+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-05T18:11:47+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T18:11:47+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T18:11:47+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-05T18:11:47+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-05T18:11:47+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T18:11:47+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T18:11:47+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T18:11:47+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-05T18:11:48+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-06T15:28:20+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T15:28:20+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T15:28:20+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "69102bf5e589a12f8d1d63c064bc5f3d71f03326e38cd700ba3abc5634b34840", "size_bytes": 4198453, "ts": "2026-06-06T15:28:20+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/admin/remote-ops/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T15:28:20+08:00"}
+{"action": "shell", "error": "unsupported_remote_op", "event": "remote_ops_rejected", "path": "/api/admin/remote-ops/command", "status_code": 400, "ts": "2026-06-06T15:28:20+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-06T15:28:20+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-06T15:28:20+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T15:28:20+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T15:28:20+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T15:28:20+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T15:28:20+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T15:28:20+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T15:28:20+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T15:28:20+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T15:28:20+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-06T15:41:38+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T15:41:38+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T15:41:38+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "7b5574a1fe8880327bba84347958be92b3919d070f64e074799d34c9a5d7eb0e", "size_bytes": 4198453, "ts": "2026-06-06T15:41:38+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/admin/remote-ops/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T15:41:38+08:00"}
+{"action": "shell", "error": "unsupported_remote_op", "event": "remote_ops_rejected", "path": "/api/admin/remote-ops/command", "status_code": 400, "ts": "2026-06-06T15:41:38+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-06T15:41:38+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-06T15:41:38+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T15:41:38+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T15:41:38+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T15:41:38+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T15:41:38+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T15:41:38+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T15:41:38+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T15:41:38+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T15:41:38+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-06T15:42:29+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T15:42:29+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T15:42:29+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "ef1372c77b846719fa350d4db000a6610c969fa3aa3915db4d2909ddc32fa856", "size_bytes": 4198453, "ts": "2026-06-06T15:42:29+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/admin/remote-ops/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T15:42:29+08:00"}
+{"action": "shell", "error": "unsupported_remote_op", "event": "remote_ops_rejected", "path": "/api/admin/remote-ops/command", "status_code": 400, "ts": "2026-06-06T15:42:29+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-06T15:42:29+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-06T15:42:29+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T15:42:29+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T15:42:29+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T15:42:29+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T15:42:29+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T15:42:29+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T15:42:29+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T15:42:29+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T15:42:29+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-06T15:45:59+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T15:46:00+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T15:46:00+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "75d708ecaca00dd73daabec92b33a58e8b6c6d0ae27507a69417b38bae5fbbae", "size_bytes": 4198453, "ts": "2026-06-06T15:46:00+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/admin/remote-ops/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T15:46:00+08:00"}
+{"action": "shell", "error": "unsupported_remote_op", "event": "remote_ops_rejected", "path": "/api/admin/remote-ops/command", "status_code": 400, "ts": "2026-06-06T15:46:00+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-06T15:46:00+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-06T15:46:00+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T15:46:00+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T15:46:00+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T15:46:00+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T15:46:00+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T15:46:00+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T15:46:00+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T15:46:00+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T15:46:00+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-06T16:29:40+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T16:29:40+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T16:29:40+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "e1ecc35101f9d31d68433012719350b87b7571ce5b908d643b887e3077639227", "size_bytes": 4198453, "ts": "2026-06-06T16:29:40+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/admin/remote-ops/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T16:29:40+08:00"}
+{"action": "shell", "error": "unsupported_remote_op", "event": "remote_ops_rejected", "path": "/api/admin/remote-ops/command", "status_code": 400, "ts": "2026-06-06T16:29:40+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-06T16:29:41+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-06T16:29:41+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T16:29:41+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T16:29:41+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T16:29:41+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T16:29:41+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T16:29:41+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T16:29:41+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T16:29:41+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T16:29:41+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-06T16:35:23+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T16:35:23+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T16:35:23+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "b173568e8dd424fdb5d619c9d41c82b54d90e0985a135d61d07d61d02e738c4c", "size_bytes": 4198453, "ts": "2026-06-06T16:35:24+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/admin/remote-ops/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T16:35:24+08:00"}
+{"action": "shell", "error": "unsupported_remote_op", "event": "remote_ops_rejected", "path": "/api/admin/remote-ops/command", "status_code": 400, "ts": "2026-06-06T16:35:24+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-06T16:35:24+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-06T16:35:24+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T16:35:24+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T16:35:24+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T16:35:24+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T16:35:24+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T16:35:24+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T16:35:24+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T16:35:24+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T16:35:24+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-06T16:45:09+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T16:45:09+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T16:45:09+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "340a5ab70453196b6f5a2e0aff5b58b3fc4896196676536a27fddb8d77cc5e34", "size_bytes": 4198453, "ts": "2026-06-06T16:45:10+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/admin/remote-ops/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T16:45:10+08:00"}
+{"action": "shell", "error": "unsupported_remote_op", "event": "remote_ops_rejected", "path": "/api/admin/remote-ops/command", "status_code": 400, "ts": "2026-06-06T16:45:10+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-06T16:45:10+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-06T16:45:10+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T16:45:10+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T16:45:10+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T16:45:10+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T16:45:10+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T16:45:10+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T16:45:10+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T16:45:10+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T16:45:10+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-06T18:44:00+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T18:44:00+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T18:44:00+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "69a8ad37cd4238db6dc6c56bda2679dd7d30896ebd09380138a2703ea91a563b", "size_bytes": 4198453, "ts": "2026-06-06T18:44:00+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/admin/remote-ops/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T18:44:00+08:00"}
+{"action": "shell", "error": "unsupported_remote_op", "event": "remote_ops_rejected", "path": "/api/admin/remote-ops/command", "status_code": 400, "ts": "2026-06-06T18:44:00+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-06T18:44:00+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-06T18:44:00+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T18:44:00+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T18:44:00+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T18:44:00+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T18:44:00+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T18:44:00+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T18:44:00+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T18:44:00+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T18:44:00+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-06T18:57:57+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T18:57:57+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T18:57:57+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "d4e2ab1e67785102a8dc0545ae6c282e8afb67a81d3dc83514dbae52219959f6", "size_bytes": 4198453, "ts": "2026-06-06T18:57:58+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/admin/remote-ops/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T18:57:58+08:00"}
+{"action": "shell", "error": "unsupported_remote_op", "event": "remote_ops_rejected", "path": "/api/admin/remote-ops/command", "status_code": 400, "ts": "2026-06-06T18:57:58+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-06T18:57:58+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-06T18:57:58+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T18:57:58+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T18:57:58+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T18:57:58+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T18:57:58+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T18:57:58+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T18:57:58+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T18:57:58+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T18:57:58+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-06T19:07:18+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T19:07:18+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T19:07:18+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "78b06917f67eefba52cc2ad777c7e996a41537c810b43ee6c2d71b9df2580b15", "size_bytes": 4198453, "ts": "2026-06-06T19:07:18+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/admin/remote-ops/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T19:07:18+08:00"}
+{"action": "shell", "error": "unsupported_remote_op", "event": "remote_ops_rejected", "path": "/api/admin/remote-ops/command", "status_code": 400, "ts": "2026-06-06T19:07:18+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-06T19:07:18+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-06T19:07:18+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T19:07:18+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T19:07:18+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T19:07:18+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T19:07:18+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T19:07:18+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T19:07:18+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T19:07:18+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T19:07:18+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-06T21:22:09+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T21:22:09+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T21:22:09+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "495c73bff37be2f9135aa99ab0b6923496647e61ab2755212e93499a3bca23bb", "size_bytes": 4198453, "ts": "2026-06-06T21:22:09+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/admin/remote-ops/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T21:22:09+08:00"}
+{"action": "shell", "error": "unsupported_remote_op", "event": "remote_ops_rejected", "path": "/api/admin/remote-ops/command", "status_code": 400, "ts": "2026-06-06T21:22:09+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-06T21:22:09+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-06T21:22:09+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T21:22:09+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T21:22:09+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-06T21:22:09+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-06T21:22:09+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T21:22:09+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T21:22:09+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T21:22:09+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-06T21:22:09+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-07T18:37:06+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-07T18:37:06+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-07T18:37:06+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "4e886bc405a9fe97d5ccc0400dfeb7c3a9cba6a129b4fcf712ac8e5ad19a78b9", "size_bytes": 4198453, "ts": "2026-06-07T18:37:07+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/admin/remote-ops/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-07T18:37:07+08:00"}
+{"action": "shell", "error": "unsupported_remote_op", "event": "remote_ops_rejected", "path": "/api/admin/remote-ops/command", "status_code": 400, "ts": "2026-06-07T18:37:07+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-07T18:37:07+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-07T18:37:07+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-07T18:37:07+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-07T18:37:07+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-07T18:37:07+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-07T18:37:07+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-07T18:37:07+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-07T18:37:07+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-07T18:37:07+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-07T18:37:07+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-07T18:42:19+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-07T18:42:20+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-07T18:42:20+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "79355b5e2ac0118e63a8ac9c3525e759f034dd4eee5b5838ee116c6f04b2f596", "size_bytes": 4198453, "ts": "2026-06-07T18:42:20+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/admin/remote-ops/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-07T18:42:20+08:00"}
+{"action": "shell", "error": "unsupported_remote_op", "event": "remote_ops_rejected", "path": "/api/admin/remote-ops/command", "status_code": 400, "ts": "2026-06-07T18:42:20+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-07T18:42:20+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-07T18:42:20+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-07T18:42:20+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-07T18:42:20+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-07T18:42:20+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-07T18:42:20+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-07T18:42:20+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-07T18:42:20+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-07T18:42:20+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-07T18:42:20+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-07T18:45:14+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-07T18:45:15+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-07T18:45:15+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "19d7f8d50461ce40890146cbf8ade36697e87a1cfcf5027c41fbf02954a7e75b", "size_bytes": 4198453, "ts": "2026-06-07T18:45:15+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/admin/remote-ops/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-07T18:45:15+08:00"}
+{"action": "shell", "error": "unsupported_remote_op", "event": "remote_ops_rejected", "path": "/api/admin/remote-ops/command", "status_code": 400, "ts": "2026-06-07T18:45:15+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-07T18:45:15+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-07T18:45:15+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-07T18:45:15+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-07T18:45:15+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-07T18:45:15+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-07T18:45:15+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-07T18:45:15+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-07T18:45:15+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-07T18:45:15+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-07T18:45:15+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-07T19:14:28+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-07T19:14:28+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-07T19:14:28+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "f18e7b0d5907fe47e24ac6dcec19290d4e0b00cd1706d81833e4d9fe4c8788a9", "size_bytes": 4198453, "ts": "2026-06-07T19:14:28+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/admin/remote-ops/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-07T19:14:28+08:00"}
+{"action": "shell", "error": "unsupported_remote_op", "event": "remote_ops_rejected", "path": "/api/admin/remote-ops/command", "status_code": 400, "ts": "2026-06-07T19:14:28+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-07T19:14:28+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-07T19:14:28+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-07T19:14:28+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-07T19:14:28+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-07T19:14:28+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-07T19:14:28+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-07T19:14:28+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-07T19:14:28+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-07T19:14:28+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-07T19:14:28+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-07T20:13:02+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-07T20:13:02+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-07T20:13:02+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "0948cf9858d5ea5a48e43c33ea5d60075018f34b185db5c079d1b6e4919275b4", "size_bytes": 4198453, "ts": "2026-06-07T20:13:02+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/admin/remote-ops/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-07T20:13:02+08:00"}
+{"action": "shell", "error": "unsupported_remote_op", "event": "remote_ops_rejected", "path": "/api/admin/remote-ops/command", "status_code": 400, "ts": "2026-06-07T20:13:02+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-07T20:13:02+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-07T20:13:02+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-07T20:13:02+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-07T20:13:02+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-07T20:13:02+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-07T20:13:02+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-07T20:13:02+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-07T20:13:02+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-07T20:13:02+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-07T20:13:02+08:00"}
+{"base_url_rejected": false, "clear_key": false, "event": "config_change", "fields": ["base_url", "model", "timeout_seconds"], "key_changed": false, "path": "/api/config/deepseek", "target": "deepseek", "ts": "2026-06-07T21:24:19+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-07T21:24:19+08:00"}
+{"action": "download_artifacts", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-07T21:24:19+08:00"}
+{"artifact": "sepsiscare_model_artifacts_latest.zip", "event": "artifact_download", "path": "/api/artifacts/latest", "sha256": "eb80f5a96e983d274c52a2de2b3aa8fcab1a9c1fdd150ee70a3a228c8bc5e824", "size_bytes": 4198453, "ts": "2026-06-07T21:24:20+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/admin/remote-ops/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-07T21:24:20+08:00"}
+{"action": "shell", "error": "unsupported_remote_op", "event": "remote_ops_rejected", "path": "/api/admin/remote-ops/command", "status_code": 400, "ts": "2026-06-07T21:24:20+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/patients", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-07T21:24:20+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "remote_auth_not_configured", "status_code": 403, "ts": "2026-06-07T21:24:20+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/training/command", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-07T21:24:20+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-07T21:24:20+08:00"}
+{"client": "203.0.113.10", "event": "auth_failure", "path": "/api/audit", "reason": "authorization_required", "status_code": 401, "ts": "2026-06-07T21:24:20+08:00"}
+{"action": "stream_metrics", "event": "training_command", "path": "/api/training/command", "ts": "2026-06-07T21:24:20+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-07T21:24:20+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-07T21:24:20+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-07T21:24:20+08:00"}
+{"event": "training_cloud_url_rejected", "path": "/api/training-terminal/config", "reason": "unsafe_cloud_base_url", "ts": "2026-06-07T21:24:20+08:00"}

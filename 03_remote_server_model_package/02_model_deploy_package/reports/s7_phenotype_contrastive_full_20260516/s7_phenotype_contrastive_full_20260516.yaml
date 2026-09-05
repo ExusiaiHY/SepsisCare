@@ -1,0 +1,58 @@
+main_source: physionet2012
+sources:
+- name: physionet2012
+  role: train
+  s0_dir: data/s0
+  s2_dir: data/s2
+- name: physionet2019
+  role: train
+  s0_dir: data/s19_bridge
+- name: mimiciv
+  role: train
+  s0_dir: data/external_temporal/mimic/s0
+- name: eicu
+  role: train
+  s0_dir: data/external_temporal/eicu/s0
+paths:
+  output_dir: data/s7_phenotype_contrastive_full_20260516
+model:
+  recurrent: gru
+  hidden_dim: 64
+  embedding_dim: 64
+  num_layers: 1
+  dropout: 0.1
+  missingness_aware: true
+  delta_clip_hours: 48.0
+  gru_d_imputation: false
+training:
+  aux_training_mode: source-balanced
+  balanced_include_main_source: true
+  balanced_steps_per_epoch: 160
+  aux_epochs: 8
+  aux_patience: 2
+  epochs: 0
+  patience: 2
+  batch_size: 512
+  lr: 0.001
+  weight_decay: 0.0001
+  source_objective: group-dro
+  group_dro_eta: 0.005
+  domain_invariance: none
+  lambda_domain: 0.1
+  domain_grl_lambda: 1.0
+  lambda_mortality: 1.0
+  lambda_sepsis: 1.0
+  lambda_los: 0.5
+  lambda_next_mv: 0.5
+  lambda_next_rrt: 0.5
+  transition_alpha: 1.0
+  transition_weight: 1.0
+  rule_temperature: 12.0
+  lambda_phenotype: 0.75
+  lambda_phenotype_contrastive: 0.1
+  phenotype_contrastive_temperature: 0.2
+runtime:
+  device: cuda
+  seed: 42
+  num_workers: 2
+  pin_memory: true

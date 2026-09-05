@@ -1,0 +1,49 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "care.sepsis.android"
+    compileSdk 35
+    buildToolsVersion "35.0.1"
+
+    defaultConfig {
+        applicationId "care.sepsis.android"
+        minSdk 26
+        targetSdk 35
+        versionCode 10
+        versionName "0.9.1"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.debug
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            // Internal sideload builds use the debug key. Configure a release keystore before Play Store distribution.
+        }
+        debug {
+            applicationIdSuffix ".debug"
+            debuggable true
+        }
+    }
+
+    // Output APK naming
+    applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "sepsiscare-${variant.versionName}-${variant.buildType.name}.apk"
+        }
+    }
+}
+
+/*
+// Uncomment and configure when you have a release keystore
+signingConfigs {
+    release {
+        storeFile file("my-release-key.jks")
+        storePassword System.getenv("SEPSISCARE_KEYSTORE_PASSWORD")
+        keyAlias "sepsiscare"
+        keyPassword System.getenv("SEPSISCARE_KEY_PASSWORD")
+    }
+}
+*/
